@@ -1,41 +1,32 @@
 import React, { useEffect, useState } from "react";
-import dom from "@left4code/tw-starter/dist/js/dom";
 
 export default function ToggleMode() {
-  const [isDark, setIsDark] = React.useState();
+  const [darkMode, setDarkMode] = useState(false);
+  const [flag, setFlag] = useState(false);
 
-  const switchMode = () => {
-    setIsDark((isDark) => !isDark);
-    setDarkClass(!isDark);
-  };
+  //Call from local Storage
   useEffect(() => {
-    // Button is displayed after scrolling for 500 pixels
-    if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      document.documentElement.classList.add("dark");
-      switchMode();
-    } else {
-      document.documentElement.classList.remove("dark");
-      switchMode();
+    const storedPreference = localStorage.getItem("prefersDarkMode");
+    if (storedPreference) {
+      setDarkMode(JSON.parse(storedPreference));
     }
+    setFlag(true);
   }, []);
-  const setDarkClass = (e) => {
-    if (e) {
-      dom("html").addClass("dark");
-      localStorage.theme = "dark";
-    } else {
-      dom("html").removeClass("dark");
-      localStorage.theme = "light";
+
+  //Set to Local Storage
+  useEffect(() => {
+    if (flag) {
+      localStorage.setItem("prefersDarkMode", darkMode);
+      document.body.classList.toggle("dark", darkMode);
     }
-  };
+  }, [darkMode, flag]);
 
   return (
     <>
       <div
-        onClick={switchMode}
+        onClick={() => {
+          setDarkMode(!darkMode);
+        }}
         className="fixed right-[80px] bottom-4 z-[9999] flex h-14 w-14 cursor-pointer items-center justify-center rounded-full p-4 text-slate-600 transition duration-300 hover:animate-pulse dark:text-slate-200"
         data-aos="fade-left"
         data-aos-duration="1200"

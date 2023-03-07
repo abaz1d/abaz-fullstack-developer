@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Trans, useTranslation } from "react-i18next";
-import dom from "@left4code/tw-starter/dist/js/dom";
 
 const HeaderBox = () => {
   const { t } = useTranslation();
@@ -105,7 +104,7 @@ const HeaderBox = () => {
                     className="mx-auto w-[75px] cursor-pointer rounded-lg bg-white bg-opacity-0 py-2 text-base text-dark group-hover:text-primary dark:bg-dark dark:bg-opacity-0 dark:text-white"
                   >
                     <option value="id">🇮🇩 ID</option>
-                    <option value="en">🇺🇸 US</option>
+                    <option value="en-US">🇺🇸 US</option>
                   </select>
                 </li>
               </ul>

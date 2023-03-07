@@ -16,7 +16,7 @@ i18n
         translations: english,
       },
     },
-    fallbackLng: "en",
+    fallbackLng: "en-US",
     debug: false,
 
     // have a common namespace used around the full app

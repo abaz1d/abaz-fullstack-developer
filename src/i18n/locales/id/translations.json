@@ -1,0 +1,46 @@
+{
+  "404": "Halaman yang Anda cari tidak ditemukan.",
+  "Back_Home": "Kembali Beranda",
+
+  "Nav_Home": "Beranda",
+  "Nav_About": "Tentang",
+  "Nav_Clients": "Klien",
+  "Nav_Portfolio": "Portofolio",
+  "Nav_Blog": "Blog",
+  "Nav_Contact": "Kontak",
+
+  "meta": "Tentang Saya",
+  "title": "Saya Abdul Aziz",
+  "description": "Hai, nama saya Abdul Aziz. Saya adalah pribadi yang memiliki motivasi tinggi dan pekerja keras. Saya mengisi waktu saya dengan belajar banyak hal untuk menambah pengetahuan saya, seperti membaca buku dan mengikuti kursus bootcamp coding di <a href='https://rubicamp.com/' target='_blank'> RUBICAMP.</a>",
+  "Main_Tech": "<i>Tech Stack</i>  Utama",
+
+  "HeroBox_Title": "Halo Semua, Saya ",
+  "HeroBox_Subtitle": "Seorang Pengembang <i>Full-Stack</i>",
+  "HeroBox_Description": "Orang yang menguasai segala hal sebenarnya tidak menguasai apapun, tetapi seringkali lebih baik daripada orang yang ahli dalam suatu hal.",
+  "HeroBox_Contactme": "Hubungi Saya",
+
+  "AboutBox_Title": "Tentang Saya",
+  "AboutBox_SubTitle": "Keterampilan",
+  "AboutBox_Social": "Tautan Sosial",
+  "AboutBox_Description1": "<i>Tech Stack</i> yang saya kuasai saat ini.",
+  "AboutBox_Description2": "Nama saya Abdul Aziz, saya adalah individu yang sangat termotivasi dan pekerja keras. Saya mengisi waktu dengan mempelajari banyak hal untuk menambah pengetahuan, seperti membaca buku, dan mengikuti kursus coding Bootcamp di RUBICAMP.",
+
+  "Portfolio_SubTitle": "Proyek Terbaru Saya Untuk Klien.",
+  "Portfolio_Description": "Berikut ini adalah beberapa proyek yang telah saya kerjakan menggunakan berbagai <i>tech stack</i>.",
+  "p1_name": "Aplikasi Binatu",
+  "p1_description": "Aplikasi Binatu adalah aplikasi yang dipesan oleh Ida Laundry, berbasis Android yang dibangun dengan React Native. sedangkan versi website dibangun dengan React Redux. Hasil implementasi ini dapat menghasilkan aplikasi web dan android agar konsumen dapat langsung memesan pakaian kotor konsumen dapat diambil langsung oleh petugas laundry.",
+
+  "Clients_SubTitle": "Klien Terbaru Saya",
+  "Clients_Description": "Berikut ini beberapa orang atau perusahaan yang pernah menjadi klien saya.",
+
+  "Contact_SubTitle": "Hubungi Saya",
+  "Contact_Description": "Jika Ada Pertanyaan, Hubungi Saya Lebih Lanjut.",
+  "Name_Form": "Nama",
+  "Contact_Form": "Kontak",
+  "Desc_Form": "Deskripsi",
+  "Send_Form": "Kirim",
+
+  "Footer_Addres": "Tambakaji, Ngaliyan, Kota Semarang,",
+  "Footer_Location": "Provinsi Jawa Tengah, 50185, Indonesia.",
+  "Footer_Author": "Hak Cipta © 2023 <a href='https://github.com/abaz1d' target='_blank'>Abdul Aziz</a>, Ltd. Semua Hak Dilindungi Undang-Undang."
+}

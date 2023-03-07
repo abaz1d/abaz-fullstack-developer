@@ -1,0 +1,46 @@
+{
+  "404": "The page you are looking for could not be found.",
+  "Back_Home": "Back Home",
+
+  "Nav_Home": "Home",
+  "Nav_About": "About",
+  "Nav_Clients": "Clients",
+  "Nav_Portfolio": "Portfolio",
+  "Nav_Blog": "Blog",
+  "Nav_Contact": "Contact",
+
+  "meta": "About Me",
+  "title": "I'm Abdul Aziz",
+  "description": "Hi, my name is Abdul Aziz. I am a highly motivated and hard-working individual. I filled my time with learning many things to increase my knowledge, such as reading books and taking coding bootcamp courses at <a href='https://rubicamp.com/' rel='noopener'> RUBICAMP.</a>",
+  "Main_Tech": "Main Tech Stack",
+
+  "HeroBox_Title": "Hi Everyone, I am ",
+  "HeroBox_Subtitle": "Full-Stack Developer",
+  "HeroBox_Description": "Jack of all trades is a master of none, but oftentimes better than a master of one.",
+  "HeroBox_Contactme": "Contact Me",
+
+  "AboutBox_Title": "About Me",
+  "AboutBox_SubTitle": "Skills",
+  "AboutBox_Social": "Social Links",
+  "AboutBox_Description1": "Tech stack that I currently master.",
+  "AboutBox_Description2": "My name is Abdul Aziz, I am a highly motivated and hardworking individual. I filled my time by learning many things to increase my knowledge, such as reading books, and taking coding Bootcamp courses at <a href='https://rubicamp.com/' target='_blank'> RUBICAMP.</a>",
+
+  "Portfolio_SubTitle": "My Recent Projects For Clients.",
+  "Portfolio_Description": "The following are some of the projects I've worked on using various tech stacks.",
+  "p1_name": "Laundry Application",
+  "p1_description": "Laundry Application is an application ordered by Ida Laundry, based on Android and built with React Native. while the website version is built with React Redux. The results of this implementation can produce web and Android applications so that consumers can directly order dirty clothes and have them picked up directly by the laundry staff.",
+
+  "Clients_SubTitle": "My Recent Clients.",
+  "Clients_Description": "Here are some people or companies that have been my clients.",
+
+  "Contact_SubTitle": "Contact Me",
+  "Contact_Description": "If You Have Questions, Contact Me Further.",
+  "Name_Form": "Name",
+  "Contact_Form": "Contact",
+  "Desc_Form": "Description",
+  "Send_Form": "Send",
+
+  "Footer_Addres": "Tambakaji, Ngaliyan, Semarang City,",
+  "Footer_Location": "Central Java Province, 50185, Indonesia.",
+  "Footer_Author": "Copyright © 2023 <a href='https://github.com/abaz1d' target='_blank'>Abdul Aziz</a>, Ltd. All Rights Reserved."
+}

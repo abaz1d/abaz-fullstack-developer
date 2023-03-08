@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter } from "react-router-dom";
 import App from "./App";
 import "./assets/css/index.css";
 import { I18nextProvider } from "react-i18next";

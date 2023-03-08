@@ -2,7 +2,7 @@
   "name": "portfolio-react-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/abaz1d/abaz-fullstack-portfolio/",
+  "homepage": "https://github.com/abaz1d/abaz-fullstack-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite --host",

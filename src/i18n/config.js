@@ -29,10 +29,6 @@ i18n
       escapeValue: false, // not needed for react!!
       formatSeparator: ",",
     },
-
-    react: {
-      wait: true,
-    },
   });
 
 export default i18n;

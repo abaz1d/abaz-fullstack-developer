@@ -1,5 +1,6 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
+import LOGO from "@/assets/images/logo.png";
 
 const FooterBox = () => {
   const { t } = useTranslation();
@@ -9,6 +10,13 @@ const FooterBox = () => {
       <div className="container">
         <div className="flex flex-wrap">
           <div className="mb-12 w-full px-4 text-center font-medium text-slate-200 sm:text-left md:w-1/3">
+            <div>
+              <img
+                src={LOGO}
+                alt="logo"
+                className="mx-auto mb-4 h-12 sm:mx-0"
+              />
+            </div>
             <h2 className="mb-4 text-4xl font-bold text-white">Abdul Aziz</h2>
             <h3 className="mb-2 text-2xl font-bold">{t("Contact_SubTitle")}</h3>
             <p className="mb-2">

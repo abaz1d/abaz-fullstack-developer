@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderBox from "@/components/HeaderTop/HeaderBox";
-import HeroBox from "@/components/Hero/HeroBox";
+import HeroBox from "@/components/Hero2/HeroBox";
 import AboutBox from "@/components/About/AboutBox";
 import PortfolioBox from "@/components/Portfolio2/PortfolioBox";
 import ClientsBox from "@/components/Clients/ClientsBox";

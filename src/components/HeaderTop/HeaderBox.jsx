@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import LOGO from "@/assets/images/logo.png";
 import { Trans, useTranslation } from "react-i18next";
 
 const HeaderBox = () => {
@@ -38,7 +39,7 @@ const HeaderBox = () => {
               href="#home"
               className="block py-6 text-lg font-bold text-primary"
             >
-              Abdul Aziz
+              <img src={LOGO} alt="logo" className="-my-4 h-12" />
             </a>
           </div>
           <div className="flex items-center px-4">

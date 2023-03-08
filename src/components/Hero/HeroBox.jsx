@@ -8,7 +8,7 @@ const HeroBox = () => {
   const { t } = useTranslation();
   return (
     <section
-      className="h-screen overflow-hidden pt-[6.5rem] dark:bg-dark"
+      className="h-screen overflow-hidden pt-[5rem] dark:bg-dark sm:pt-[6.5rem]"
       id="home"
     >
       <div className="hero__container container rounded-t-full dark:bg-dark">

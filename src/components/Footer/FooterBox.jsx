@@ -1,6 +1,6 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
-import LOGO from "@/assets/images/logo.png";
+import LOGO from "@/assets/images/logo.webp";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -13,7 +13,11 @@ const FooterBox = () => {
       {/* <!-- FOOTER --> */}
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="mb-12 w-full px-4 text-center font-medium text-slate-200 sm:text-left md:w-1/3">
+          <div
+            className="mb-12 w-full px-4 text-center font-medium text-slate-200 sm:text-left md:w-1/3"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <div>
               <img
                 src={LOGO}
@@ -30,7 +34,11 @@ const FooterBox = () => {
             <p>{t("Footer_Addres")}</p>
             <p>{t("Footer_Location")}</p>
           </div>
-          <div className="mb-12 w-full px-4 text-slate-300 md:w-1/3">
+          <div
+            className="mb-12 w-full px-4 text-slate-300 md:w-1/3"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <h3 className="mb-5 border-b border-slate-600 text-center text-2xl font-semibold text-white">
               <Trans components={{ i: <i /> }}>{t("Main_Tech")}</Trans>
             </h3>
@@ -113,7 +121,11 @@ const FooterBox = () => {
               </ul>
             </div>
           </div>
-          <div className="mb-12 w-full px-4 text-center text-slate-300 md:w-1/3">
+          <div
+            className="mb-12 w-full px-4 text-center text-slate-300 md:w-1/3"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <h3 className="mb-5 border-b border-slate-600 text-2xl font-semibold text-white">
               Menu
             </h3>
@@ -161,7 +173,11 @@ const FooterBox = () => {
             </ul>
           </div>
         </div>
-        <div className="w-full border-t border-slate-600 pt-10">
+        <div
+          className="w-full border-t border-slate-600 pt-10"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="mb-5 flex items-center justify-center">
             {/* Github */}
             <a

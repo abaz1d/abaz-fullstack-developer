@@ -1,27 +1,39 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
-import IMG1 from "@/assets/images/portfolio/portfolio1.jpeg";
-import IMG2 from "@/assets/images/portfolio/portfolio2.jpeg";
-import IMG3 from "@/assets/images/portfolio/portfolio3.jpeg";
-import IMG4 from "@/assets/images/portfolio/portfolio4.jpeg";
-import IMG5 from "@/assets/images/portfolio/portfolio5.jpeg";
-import IMG6 from "@/assets/images/portfolio/portfolio6.jpeg";
+import IMG1 from "@/assets/images/portfolio/portfolio1.webp";
+import IMG2 from "@/assets/images/portfolio/portfolio2.webp";
+import IMG3 from "@/assets/images/portfolio/portfolio3.webp";
+import IMG4 from "@/assets/images/portfolio/portfolio4.webp";
+import IMG5 from "@/assets/images/portfolio/portfolio5.webp";
+import IMG6 from "@/assets/images/portfolio/portfolio6.webp";
 
 const PortfolioBox = () => {
   const { t } = useTranslation();
   return (
     <section id="portfolio" className="dark:bg-dark sm:pt-24 sm:pb-24">
-      <h5 className="text-center text-[1em] font-medium  text-secondary dark:text-white sm:text-lg">
+      <h5
+        className="text-center text-[1em] font-medium  text-secondary dark:text-white sm:text-lg"
+        data-aos="fade-up"
+        data-aos-duration="800"
+      >
         {t("Portfolio_SubTitle")}
       </h5>
-      <h2 className="mb-12 text-center text-[2em] font-medium text-primary">
+      <h2
+        className="mb-12 text-center text-[2em] font-medium text-primary"
+        data-aos="fade-down"
+        data-aos-duration="800"
+      >
         {t("Nav_Portfolio")}
       </h2>
 
       <div className="portfolio__container container">
-        <article className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
+        <article
+          className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG1} alt="project1" loading="lazy" />
           </div>
           <h3 className="text-center"> {t("p1_name")}</h3>
 
@@ -42,9 +54,13 @@ const PortfolioBox = () => {
           </div>
         </article>
 
-        <article className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
+        <article
+          className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
+            <img src={IMG2} alt="project2" loading="lazy" />
           </div>
           <h3 className="text-center">{t("p2_name")}</h3>
           <div className="portfolio__item-cta justify-center">
@@ -64,9 +80,13 @@ const PortfolioBox = () => {
           </div>
         </article>
 
-        <article className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
+        <article
+          className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
+            <img src={IMG3} alt="project3" loading="lazy" />
           </div>
           <h3 className="text-center">{t("p3_name")}</h3>
           <div className="portfolio__item-cta justify-center">
@@ -86,9 +106,13 @@ const PortfolioBox = () => {
           </div>
         </article>
 
-        <article className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
+        <article
+          className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
+            <img src={IMG4} alt="project4" loading="lazy" />
           </div>
           <h3 className="text-center">{t("p4_name")}</h3>
           <div className="portfolio__item-cta justify-center">
@@ -108,9 +132,13 @@ const PortfolioBox = () => {
           </div>
         </article>
 
-        <article className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
+        <article
+          className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
+            <img src={IMG5} alt="project5" loading="lazy" />
           </div>
           <h3 className="text-center">{t("p5_name")}</h3>
           <div className="portfolio__item-cta justify-center">
@@ -130,9 +158,13 @@ const PortfolioBox = () => {
           </div>
         </article>
 
-        <article className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
+        <article
+          className="portfolio__item cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
+            <img src={IMG6} alt="project6" loading="lazy" />
           </div>
           <h3 className="text-center">{t("p6_name")}</h3>
           <div className="portfolio__item-cta justify-center">

@@ -5,7 +5,11 @@ import { FiMail } from "react-icons/fi";
 
 const HeroSocials = () => {
   return (
-    <div className="hero__socials text-secondary dark:text-primary">
+    <div
+      className="hero__socials text-secondary dark:text-primary"
+      data-aos="fade-up"
+      data-aos-duration="800"
+    >
       <a href="https://github.com/abaz1d" target="_blank">
         <FaGithub />
       </a>

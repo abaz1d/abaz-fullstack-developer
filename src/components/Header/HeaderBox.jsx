@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import LOGO from "@/assets/images/logo.png";
+import LOGO from "@/assets/images/logo.webp";
 import { Trans, useTranslation } from "react-i18next";
 
 const HeaderBox = () => {
@@ -66,7 +66,7 @@ const HeaderBox = () => {
     <header className="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
       <div className="container">
         <div className="relative flex items-center justify-between">
-          <div className="px-4">
+          <div className="px-4" data-aos="fade-right" data-aos-duration="1500">
             <a
               href="#home"
               className="block py-6 text-lg font-bold text-primary"
@@ -74,7 +74,11 @@ const HeaderBox = () => {
               <img src={LOGO} alt="logo" className="-my-4 h-12" />
             </a>
           </div>
-          <div className="flex items-center px-4">
+          <div
+            className="flex items-center px-4"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
             <button
               id="hamburger-btn"
               type="button"
@@ -92,7 +96,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#home"
-                    className="mx-auto rounded-md py-2 px-4 text-base text-dark group-hover:text-primary dark:text-white"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
                   >
                     {t("Nav_Home")}
                   </a>
@@ -100,7 +104,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#about"
-                    className="mx-auto rounded-md py-2 px-4 text-base text-dark group-hover:text-primary dark:text-white"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
                   >
                     {t("Nav_About")}
                   </a>
@@ -108,7 +112,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#portfolio"
-                    className="mx-auto rounded-md py-2 px-4 text-base text-dark group-hover:text-primary dark:text-white"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
                   >
                     {t("Nav_Portfolio")}
                   </a>
@@ -116,7 +120,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#clients"
-                    className="mx-auto rounded-md py-2 px-4 text-base text-dark group-hover:text-primary dark:text-white"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
                   >
                     {t("Nav_Clients")}
                   </a>
@@ -124,7 +128,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#contact"
-                    className="mx-auto rounded-md py-2 px-4 text-base text-dark group-hover:text-primary dark:text-white"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
                   >
                     {t("Nav_Contact")}
                   </a>

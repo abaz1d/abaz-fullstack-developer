@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@left4code/tw-starter": "^3.2.0",
-    "aos": "^2.3.4",
+    "aos": "^3.0.0-beta.6",
     "emailjs-com": "^3.2.0",
     "i18next": "^22.4.10",
     "i18next-browser-languagedetector": "^7.0.1",

@@ -85,7 +85,7 @@ const HeaderBox = () => {
                     href="#clients"
                     className="mx-auto py-2 text-base text-dark group-hover:text-primary dark:text-white"
                   >
-                    {t("Nav_Blog")}
+                    {t("Nav_Clients")}
                   </a>
                 </li>
                 <li className="group flex text-center">

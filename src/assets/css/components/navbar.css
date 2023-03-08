@@ -1,0 +1,27 @@
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1.25rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  @apply flex rounded-full bg-transparent p-[0.9rem] text-[1.1rem] text-secondary;
+}
+
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+  @apply bg-primary text-dark;
+}

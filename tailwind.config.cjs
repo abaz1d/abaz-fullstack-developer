@@ -83,10 +83,10 @@ module.exports = {
       // },
       container: {
         center: true,
-        padding: '16px',
+        // padding: "16px",
       },
       screens: {
-        '2xl': '1320px',
+        "2xl": "1420px",
       },
       // maxWidth: {
       //   "1/4": "25%",
@@ -106,4 +106,4 @@ module.exports = {
       boxShadow: ["dark"],
     },
   },
-}
+};

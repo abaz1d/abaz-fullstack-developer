@@ -4,12 +4,12 @@ import { Trans, useTranslation } from "react-i18next";
 const FooterBox = () => {
   const { t } = useTranslation();
   return (
-    <footer className="bg-dark pt-24 pb-12">
+    <footer className="bg-dark pt-24 pb-12 dark:bg-primary">
       {/* <!-- FOOTER --> */}
       <div className="container">
         <div className="flex flex-wrap">
-          <div className="mb-12 w-full px-4 font-medium text-slate-300 md:w-1/3">
-            <h2 className="mb-5 text-4xl font-bold text-white">Abdul Aziz</h2>
+          <div className="mb-12 w-full px-4 text-center font-medium text-slate-200 sm:text-left md:w-1/3">
+            <h2 className="mb-4 text-4xl font-bold text-white">Abdul Aziz</h2>
             <h3 className="mb-2 text-2xl font-bold">{t("Contact_SubTitle")}</h3>
             <p className="mb-2">
               <a href="mailto:abaz.my.id@gmail.com" target="_blank"></a>
@@ -23,12 +23,12 @@ const FooterBox = () => {
               <Trans components={{ i: <i /> }}>{t("Main_Tech")}</Trans>
             </h3>
             <div className="flex flex-wrap">
-              <ul className="w-1/2 pl-6 text-left text-slate-300">
+              <ul className="w-1/2 pl-6 text-left">
                 <li>
                   <a
                     href="https://www.javascript.com/"
                     target="_blank"
-                    className="mb-3 inline-block text-base hover:text-primary"
+                    className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                   >
                     JavaScript
                   </a>
@@ -37,7 +37,7 @@ const FooterBox = () => {
                   <a
                     href="https://nodejs.org/en/"
                     target="_blank"
-                    className="mb-3 inline-block text-base hover:text-primary"
+                    className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                   >
                     NodeJS
                   </a>
@@ -46,7 +46,7 @@ const FooterBox = () => {
                   <a
                     href="https://vuejs.org/"
                     target="_blank"
-                    className="mb-3 inline-block text-base hover:text-primary"
+                    className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                   >
                     VueJS
                   </a>
@@ -55,7 +55,7 @@ const FooterBox = () => {
                   <a
                     href="https://reactjs.org/"
                     target="_blank"
-                    className="mb-3 inline-block text-base hover:text-primary"
+                    className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                   >
                     Rect & React Native
                   </a>
@@ -66,7 +66,7 @@ const FooterBox = () => {
                   <a
                     href="https://www.electronjs.org/"
                     target="_blank"
-                    className="mb-3 inline-block text-base hover:text-primary"
+                    className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                   >
                     ElectronJS
                   </a>
@@ -75,7 +75,7 @@ const FooterBox = () => {
                   <a
                     href="https://www.postgresql.org/"
                     target="_blank"
-                    className="mb-3 inline-block text-base hover:text-primary"
+                    className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                   >
                     PostgreSQL
                   </a>
@@ -84,7 +84,7 @@ const FooterBox = () => {
                   <a
                     href="https://www.mongodb.com/"
                     target="_blank"
-                    className="mb-3 inline-block text-base hover:text-primary"
+                    className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                   >
                     MongoDB
                   </a>
@@ -93,7 +93,7 @@ const FooterBox = () => {
                   <a
                     href="https://tailwindcss.com/"
                     target="_blank"
-                    className="mb-3 inline-block text-base hover:text-primary"
+                    className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                   >
                     TailwindCSS
                   </a>
@@ -105,11 +105,11 @@ const FooterBox = () => {
             <h3 className="mb-5 border-b border-slate-600 text-2xl font-semibold text-white">
               Menu
             </h3>
-            <ul className="text-slate-300">
+            <ul className="text-slate-200">
               <li>
                 <a
                   href="#home"
-                  className="mb-3 inline-block text-base hover:text-primary"
+                  className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                 >
                   {t("Nav_Home")}
                 </a>
@@ -117,7 +117,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#about"
-                  className="mb-3 inline-block text-base hover:text-primary"
+                  className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                 >
                   {t("Nav_About")}
                 </a>
@@ -125,7 +125,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#portfolio"
-                  className="mb-3 inline-block text-base hover:text-primary"
+                  className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                 >
                   {t("Nav_Portfolio")}
                 </a>
@@ -133,7 +133,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#clients"
-                  className="mb-3 inline-block text-base hover:text-primary"
+                  className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                 >
                   {t("Nav_Clients")}
                 </a>
@@ -141,7 +141,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#contact"
-                  className="mb-3 inline-block text-base hover:text-primary"
+                  className="mb-3 inline-block text-base text-slate-200 hover:text-primary"
                 >
                   {t("Nav_Contact")}
                 </a>
@@ -221,7 +221,7 @@ const FooterBox = () => {
             </a>
             {/* /Youtube */}
           </div>
-          <p className="text-center text-sm font-medium text-slate-500">
+          <p className="mb-8 text-center text-sm font-medium text-white sm:mb-0">
             <Trans components={{ a: <a /> }}>{t("Footer_Author")}</Trans>
           </p>
         </div>

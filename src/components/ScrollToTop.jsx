@@ -36,7 +36,7 @@ export default function ScrollToTop() {
             href="#home"
             className="fixed right-4 bottom-5 z-[9999] flex h-12 w-12 items-center justify-center rounded-full bg-primary p-2 hover:animate-pulse"
           >
-            <span className="mt-2 block h-5 w-5 rotate-45 border-t-4 border-l-4"></span>
+            <span className="mt-2 block h-5 w-5 rotate-45 border-t-[3px] border-l-[3px]"></span>
           </a>
         </div>
       )}

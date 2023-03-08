@@ -1,3 +1,8 @@
 @import "./_tailwind.css";
 @import "./_colors.css";
 @import "./_other.css";
+
+@import "./components/header.css";
+@import "./components/about.css";
+@import "./components/portfolio.css";
+@import "./components/contact.css";

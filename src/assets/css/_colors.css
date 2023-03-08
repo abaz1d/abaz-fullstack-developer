@@ -1,5 +1,6 @@
 :root {
   --color-primary: theme("colors.rgb.blue.500");
+  --color-primary: 77 181 255;
   --color-secondary: theme("colors.rgb.slate.500");
   --color-success: theme("colors.rgb.lime.500");
   --color-info: theme("colors.rgb.cyan.500");
@@ -7,7 +8,7 @@
   --color-pending: theme("colors.rgb.orange.500");
   --color-danger: theme("colors.rgb.red.600");
   --color-light: theme("colors.rgb.slate.100");
-  --color-dark: theme("colors.rgb.slate.800");
+  --color-dark: 31 31 56;
   --color-slate-50: theme("colors.rgb.slate.50");
   --color-slate-100: theme("colors.rgb.slate.100");
   --color-slate-200: theme("colors.rgb.slate.200");
@@ -20,7 +21,7 @@
   --color-slate-900: theme("colors.rgb.slate.900");
 }
 .dark {
-  --color-primary: theme("colors.rgb.blue.500");
+  --color-primary: 77 181 255;
   --color-slate-500: theme("colors.rgb.slate.400");
   --color-darkmode-50: 87 103 132;
   --color-darkmode-100: 74 90 121;

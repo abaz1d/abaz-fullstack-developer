@@ -9,7 +9,7 @@ const ClientsBox = () => {
   const { t } = useTranslation();
   return (
     <section
-      className="bg-slate-900 pt-36 pb-32 dark:bg-slate-300"
+      className="bg-slate-300 pt-36 pb-36 dark:bg-slate-900"
       id="clients"
     >
       {/* <!-- CLIENTS --> */}
@@ -19,10 +19,10 @@ const ClientsBox = () => {
             <h4 className="mb-2 text-lg font-semibold text-primary">
               {t("Nav_Clients")}
             </h4>
-            <h2 className="mb-4 text-3xl font-bold text-white dark:text-dark sm:text-4xl lg:text-5xl">
+            <h2 className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl lg:text-5xl">
               {t("Clients_SubTitle")}
             </h2>
-            <p className="text-md font-medium text-slate-400 dark:text-slate-600 md:text-lg">
+            <p className="text-md font-medium text-slate-600 dark:text-slate-400 md:text-lg">
               <Trans components={{ i: <i /> }}>
                 {t("Clients_Description")}
               </Trans>

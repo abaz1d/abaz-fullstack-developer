@@ -3,7 +3,7 @@ import { Trans, useTranslation } from "react-i18next";
 import lurikrachmad from "@/assets/images/clients/lurikrachmad.svg";
 import birookk from "@/assets/images/clients/birookk.svg";
 import binaniaga from "@/assets/images/clients/binaniaga.webp";
-import anlimitid from "@/assets/images/clients/anlimitid.png";
+import anlimitid from "@/assets/images/clients/anlimitid.webp";
 import abadan from "@/assets/images/clients/abadan.webp";
 
 const ClientsBox = () => {
@@ -49,7 +49,8 @@ const ClientsBox = () => {
               target={"_blank"}
               className="group relative mx-4 flex max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
               data-aos="fade-up"
-              data-aos-duration="1800" rel="noreferrer"
+              data-aos-duration="1800"
+              rel="noreferrer"
             >
               <img src={abadan} alt="abadan" loading="lazy" />
               <span
@@ -64,7 +65,8 @@ const ClientsBox = () => {
               target={"_blank"}
               className="group relative mx-4 flex max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
               data-aos="fade-up"
-              data-aos-duration="1200" rel="noreferrer"
+              data-aos-duration="1200"
+              rel="noreferrer"
             >
               <img src={birookk} alt="birookk" loading="lazy" />
               <span
@@ -80,7 +82,8 @@ const ClientsBox = () => {
               target={"_blank"}
               className="group relative mx-4 flex max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
               data-aos="flip-down"
-              data-aos-duration="600" rel="noreferrer"
+              data-aos-duration="600"
+              rel="noreferrer"
             >
               <img src={anlimitid} alt="anlimitid" loading="lazy" />
               <span
@@ -95,7 +98,8 @@ const ClientsBox = () => {
               target={"_blank"}
               className="group relative mx-4 flex max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
               data-aos="fade-down"
-              data-aos-duration="1200" rel="noreferrer"
+              data-aos-duration="1200"
+              rel="noreferrer"
             >
               <img src={lurikrachmad} alt="lurikrachmad" loading="lazy" />
               <span
@@ -110,7 +114,8 @@ const ClientsBox = () => {
               target={"_blank"}
               className="group relative mx-4 flex max-w-[120px] py-4 opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
               data-aos="fade-down"
-              data-aos-duration="1800" rel="noreferrer"
+              data-aos-duration="1800"
+              rel="noreferrer"
             >
               <img src={binaniaga} alt="binaniaga" loading="lazy" />
               <span

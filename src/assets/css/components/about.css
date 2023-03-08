@@ -25,17 +25,16 @@
   overflow: hidden;
   transform: rotate(10deg);
   transition: all 400ms ease;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    rgb(77, 181, 255),
+    transparent
+  );
 }
 .about__me-image:hover {
   transform: rotate(0deg);
 }
-
-.about__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
 .about__card {
   @apply bg-primary bg-opacity-40 p-8 dark:bg-[#2c2c6c];
   border-radius: 1rem;

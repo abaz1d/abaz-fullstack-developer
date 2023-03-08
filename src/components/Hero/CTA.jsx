@@ -1,6 +1,6 @@
 import React from "react";
 import CV from "@/assets/cv.pdf";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const CTA = () => {
   const { t } = useTranslation();
@@ -11,7 +11,7 @@ const CTA = () => {
         download
         className="rounded-md border-2 border-primary py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg"
       >
-        Download CV
+        {t("HeroBox_CV")}
       </a>
       <a
         href="#contact"

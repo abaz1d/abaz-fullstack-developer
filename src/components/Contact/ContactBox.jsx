@@ -1,12 +1,12 @@
 import React, { useRef } from "react";
 import { Trans, useTranslation } from "react-i18next";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsWhatsapp } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
+import { BsTelegram } from "react-icons/bs";
 
 import emailjs from "emailjs-com";
 
-const Contact = () => {
+const ContactBox = () => {
   const form = useRef();
   const { t } = useTranslation();
   const sendEmail = (e) => {
@@ -33,10 +33,10 @@ const Contact = () => {
 
   return (
     <section id="contact" className="dark:bg-dark sm:pt-24 sm:pb-24">
-      <h5 className="text-center text-[0.83em] font-medium text-secondary dark:text-white">
+      <h5 className="text-center text-[1em] font-medium  text-secondary dark:text-white sm:text-lg">
         {t("Contact_Description")}
       </h5>
-      <h2 className="mb-12 text-center text-[1.5em] font-medium text-primary">
+      <h2 className="mb-12 text-center text-[2em] font-medium text-primary">
         {t("Nav_Contact")}
       </h2>
       <div className="contact__container container">
@@ -44,30 +44,27 @@ const Contact = () => {
           <article className="contact__option cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
             <MdOutlineEmail className="contact__option-icon mx-auto" />
             <h4 className="dark:text-white">Email</h4>
-            <h5 className="dark:text-white">manu@gmail.com</h5>
-            <a href="mailto:manu@gmail.com" target="_blank">
-              Send a message
+            <h5 className="dark:text-white">abaz.my.id@gmail.com</h5>
+            <a href="mailto:abaz.my.id@gmail.com" target="_blank">
+              {t("send_message")}
             </a>
           </article>
 
           <article className="contact__option cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
-            <RiMessengerLine className="contact__option-icon mx-auto" />
-            <h4 className="dark:text-white">Messenger</h4>
-            <h5 className="dark:text-white">Manohar</h5>
-            <a href="https://m.me/manohar" target="_blank">
-              Send a message
+            <BsLinkedin className="contact__option-icon mx-auto" />
+            <h4 className="dark:text-white">LinkedIn</h4>
+            <h5 className="dark:text-white">Abdul Aziz</h5>
+            <a href="https://www.linkedin.com/in/abaz-id/" target="_blank">
+              {t("send_message")}
             </a>
           </article>
 
           <article className="contact__option cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]">
-            <BsWhatsapp className="contact__option-icon mx-auto" />
-            <h4 className="dark:text-white">Whatsapp</h4>
-            <h5 className="dark:text-white">+987654321</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=987654321"
-              target="_blank"
-            >
-              Send a message
+            <BsTelegram className="contact__option-icon mx-auto" />
+            <h4 className="dark:text-white">Telegram</h4>
+            <h5 className="dark:text-white">abaz_ID</h5>
+            <a href="https://t.me/abaz_ID" target="_blank">
+              {t("send_message")}
             </a>
           </article>
         </div>
@@ -103,4 +100,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactBox;

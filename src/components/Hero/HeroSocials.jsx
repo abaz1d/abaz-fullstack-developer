@@ -3,7 +3,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
-const HeaderSocials = () => {
+const HeroSocials = () => {
   return (
     <div className="hero__socials text-secondary dark:text-primary">
       <a href="https://github.com/abaz1d" target="_blank">
@@ -19,4 +19,4 @@ const HeaderSocials = () => {
   );
 };
 
-export default HeaderSocials;
+export default HeroSocials;

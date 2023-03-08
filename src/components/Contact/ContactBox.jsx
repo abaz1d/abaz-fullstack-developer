@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Trans, useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { BsTelegram } from "react-icons/bs";
@@ -57,7 +57,7 @@ const ContactBox = () => {
             <MdOutlineEmail className="contact__option-icon mx-auto" />
             <h4 className="dark:text-white">Email</h4>
             <h5 className="dark:text-white">abaz.my.id@gmail.com</h5>
-            <a href="mailto:abaz.my.id@gmail.com" target="_blank">
+            <a href="mailto:abaz.my.id@gmail.com" target="_blank" rel="noreferrer">
               {t("send_message")}
             </a>
           </article>
@@ -70,7 +70,7 @@ const ContactBox = () => {
             <BsLinkedin className="contact__option-icon mx-auto" />
             <h4 className="dark:text-white">LinkedIn</h4>
             <h5 className="dark:text-white">Abdul Aziz</h5>
-            <a href="https://www.linkedin.com/in/abaz-id/" target="_blank">
+            <a href="https://www.linkedin.com/in/abaz-id/" target="_blank" rel="noreferrer">
               {t("send_message")}
             </a>
           </article>
@@ -83,7 +83,7 @@ const ContactBox = () => {
             <BsTelegram className="contact__option-icon mx-auto" />
             <h4 className="dark:text-white">Telegram</h4>
             <h5 className="dark:text-white">abaz_ID</h5>
-            <a href="https://t.me/abaz_ID" target="_blank">
+            <a href="https://t.me/abaz_ID" target="_blank" rel="noreferrer">
               {t("send_message")}
             </a>
           </article>

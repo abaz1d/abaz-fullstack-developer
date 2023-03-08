@@ -31,7 +31,6 @@ export default function ScrollToTop() {
     <>
       {isVisible && (
         <div onClick={darkToggle}>
-          {/* <span className="beny_tm_totop"></span> */}
           <a
             href="#home"
             className="fixed right-4 bottom-5 z-[9999] flex h-12 w-12 items-center justify-center rounded-full bg-primary p-2 hover:animate-pulse"

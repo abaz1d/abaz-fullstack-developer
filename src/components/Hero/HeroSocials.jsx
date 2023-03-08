@@ -10,13 +10,13 @@ const HeroSocials = () => {
       data-aos="fade-up"
       data-aos-duration="800"
     >
-      <a href="https://github.com/abaz1d" target="_blank">
+      <a href="https://github.com/abaz1d" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
-      <a href="https://www.linkedin.com/in/abaz-id/" target="_blank">
+      <a href="https://www.linkedin.com/in/abaz-id/" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="mailto:abaz.my.id@gmail.com" target="_blank">
+      <a href="mailto:abaz.my.id@gmail.com" target="_blank" rel="noreferrer">
         <FiMail />
       </a>
     </div>

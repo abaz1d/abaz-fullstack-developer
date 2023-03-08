@@ -5,8 +5,6 @@ import { FaRegMoon } from "react-icons/fa";
 export default function ToggleMode() {
   const [darkMode, setDarkMode] = useState(false);
   const [flag, setFlag] = useState(false);
-
-  //Call from local Storage
   useEffect(() => {
     const storedPreference = localStorage.getItem("prefersDarkMode");
     if (storedPreference) {
@@ -14,8 +12,6 @@ export default function ToggleMode() {
     }
     setFlag(true);
   }, []);
-
-  //Set to Local Storage
   useEffect(() => {
     if (flag) {
       localStorage.setItem("prefersDarkMode", darkMode);

@@ -12,13 +12,13 @@ const HeroBox = () => {
       id="home"
     >
       <div className="hero__container container rounded-t-full dark:bg-dark">
-        <h5
+        <span
           className="text-[1em] font-medium  text-primary dark:text-white sm:text-lg"
           data-aos="fade-up-right"
           data-aos-duration="800"
         >
           {t("HeroBox_Title")}
-        </h5>
+        </span>
         <h1
           className="text-[2.5rem] font-medium text-primary dark:text-white"
           data-aos="zoom-in-down"
@@ -37,7 +37,7 @@ const HeroBox = () => {
         <HeroSocials />
 
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
-          <img src={ME} alt="me" />
+          <img fetchpriority="high" src={ME} alt="me" />
         </div>
 
         <a

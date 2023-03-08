@@ -9,8 +9,6 @@ import i18n from "./i18n/config.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <I18nextProvider i18n={i18n}>
-    <HashRouter>
-      <App />
-    </HashRouter>
+    <App />
   </I18nextProvider>
 );

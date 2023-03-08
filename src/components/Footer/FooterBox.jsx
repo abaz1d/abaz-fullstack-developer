@@ -187,7 +187,7 @@ const FooterBox = () => {
               target={"_blank"}
               className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
             >
-              <FiMail className="h-5 w-5 fill-dark" />
+              <FiMail className="h-5 w-5 fill-dark dark:fill-primary" />
             </a>
             {/* /Gmail */}
             {/* Youtube */}

@@ -7,7 +7,10 @@ import { Trans, useTranslation } from "react-i18next";
 const HeroBox = () => {
   const { t } = useTranslation();
   return (
-    <div className="h-screen overflow-hidden pt-[5rem] dark:bg-dark" id="home">
+    <section
+      className="h-screen overflow-hidden pt-[5rem] dark:bg-dark"
+      id="home"
+    >
       <div className="hero__container container rounded-t-full dark:bg-dark">
         <h5 className="text-[1em] font-medium  text-primary dark:text-white sm:text-lg">
           {t("HeroBox_Title")}
@@ -32,7 +35,7 @@ const HeroBox = () => {
           {t("HeroBox_Scroll")}
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

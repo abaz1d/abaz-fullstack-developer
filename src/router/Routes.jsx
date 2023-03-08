@@ -7,11 +7,11 @@ import {
   Routes as Switch,
 } from "react-router-dom";
 import ScrollTopBehaviour from "@/components/ScrollTopBehaviour";
-
 const Routes = () => {
+  //console.log(import.meta.env.VITE_APP_BASE_API);
   return (
     <>
-      <Router basename="/abaz-fullstack-portfolio/">
+      <Router basename={import.meta.env.VITE_APP_BASE_API}>
         <ScrollTopBehaviour />
         <Switch>
           <Route path="/" element={<PageHome />} />

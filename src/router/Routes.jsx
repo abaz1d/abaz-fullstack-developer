@@ -6,8 +6,8 @@ import ScrollTopBehaviour from "@/components/ScrollTopBehaviour";
 const Routes = () => {
   return (
     <>
-      {/* <BrowserRouter basename="/abaz-fullstack-developer/"> */}
-      <BrowserRouter>
+      <BrowserRouter basename="/abaz-fullstack-developer/">
+        {/* <BrowserRouter> */}
         <ScrollTopBehaviour />
         <Switch>
           <Route path="/" element={<PageHome />} />

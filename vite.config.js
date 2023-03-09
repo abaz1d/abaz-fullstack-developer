@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/abaz-fullstack-portfolio/",
+  base: "/abaz-fullstack-developer/",
   plugins: [react()],
   resolve: {
     alias: {

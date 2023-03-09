@@ -11,7 +11,7 @@ const PageHome = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     const loadData = async () => {
-      await new Promise((r) => setTimeout(r, 2000));
+      await new Promise((r) => setTimeout(r, 500));
       setLoading((loading) => !loading);
     };
 

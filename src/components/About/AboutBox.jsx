@@ -36,7 +36,7 @@ const AboutBox = () => {
       </h2>
 
       <div className="about__container container">
-        <div className="about__me" data-aos="flip-up" data-aos-duration="800">
+        <div className="about__me" data-aos="fade-left" data-aos-duration="800">
           {" "}
           <div className="about__me-image grayscale hover:grayscale-0">
             <img src={ME} alt="About image" loading="lazy" />
@@ -96,7 +96,8 @@ const AboutBox = () => {
                 target={"_blank"}
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#F7DF1E] opacity-80 hover:border-primary hover:bg-primary hover:text-white sm:h-12 sm:w-12"
                 data-aos="fade-down"
-                data-aos-duration="300" rel="noreferrer"
+                data-aos-duration="300"
+                rel="noreferrer"
               >
                 <SiJavascript className="h-7 w-7 bg-black fill-current shadow-inner shadow-slate-500 hover:bg-primary" />
               </a>
@@ -107,7 +108,8 @@ const AboutBox = () => {
                 target={"_blank"}
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#339933] opacity-80 hover:border-primary hover:bg-primary hover:text-white sm:h-12 sm:w-12"
                 data-aos="fade-down"
-                data-aos-duration="600" rel="noreferrer"
+                data-aos-duration="600"
+                rel="noreferrer"
               >
                 <IoLogoNodejs className="h-7 w-7 fill-current" />
               </a>
@@ -118,7 +120,8 @@ const AboutBox = () => {
                 target={"_blank"}
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#4FC08D] opacity-80 hover:border-primary hover:bg-primary hover:text-white sm:h-12 sm:w-12"
                 data-aos="fade-down"
-                data-aos-duration="900" rel="noreferrer"
+                data-aos-duration="900"
+                rel="noreferrer"
               >
                 <SiVuedotjs className="h-7 w-7 fill-current" />
               </a>
@@ -129,7 +132,8 @@ const AboutBox = () => {
                 target={"_blank"}
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#61DAFB] opacity-80 hover:border-primary hover:bg-primary hover:text-white sm:h-12 sm:w-12"
                 data-aos="fade-down"
-                data-aos-duration="1200" rel="noreferrer"
+                data-aos-duration="1200"
+                rel="noreferrer"
               >
                 <SiReact className="h-7 w-7 fill-current" />
               </a>
@@ -140,7 +144,8 @@ const AboutBox = () => {
                 target={"_blank"}
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#47848F] opacity-80 hover:border-primary hover:bg-primary hover:text-white sm:h-12 sm:w-12"
                 data-aos="fade-down"
-                data-aos-duration="1500" rel="noreferrer"
+                data-aos-duration="1500"
+                rel="noreferrer"
               >
                 <SiElectron className="h-7 w-7 fill-current" />
               </a>
@@ -151,7 +156,8 @@ const AboutBox = () => {
                 target={"_blank"}
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#4169E1] opacity-80 hover:border-primary hover:bg-primary hover:text-white sm:h-12 sm:w-12"
                 data-aos="fade-down"
-                data-aos-duration="1800" rel="noreferrer"
+                data-aos-duration="1800"
+                rel="noreferrer"
               >
                 <SiPostgresql className="h-7 w-7 fill-current" />
               </a>
@@ -162,7 +168,8 @@ const AboutBox = () => {
                 target={"_blank"}
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#47A248] opacity-80 hover:border-primary hover:bg-primary hover:text-white sm:h-12 sm:w-12"
                 data-aos="fade-down"
-                data-aos-duration="2100" rel="noreferrer"
+                data-aos-duration="2100"
+                rel="noreferrer"
               >
                 <SiMongodb className="h-7 w-7 fill-current" />
               </a>
@@ -173,7 +180,8 @@ const AboutBox = () => {
                 target={"_blank"}
                 className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#06B6D4] opacity-80 hover:border-primary hover:bg-primary hover:text-white sm:h-12 sm:w-12"
                 data-aos="fade-down"
-                data-aos-duration="2400" rel="noreferrer"
+                data-aos-duration="2400"
+                rel="noreferrer"
               >
                 <SiTailwindcss className="h-7 w-7 fill-current" />
               </a>

@@ -57,7 +57,11 @@ const ContactBox = () => {
             <MdOutlineEmail className="contact__option-icon mx-auto" />
             <h4 className="dark:text-white">Email</h4>
             <h5 className="dark:text-white">abaz.my.id@gmail.com</h5>
-            <a href="mailto:abaz.my.id@gmail.com" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:abaz.my.id@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               {t("send_message")}
             </a>
           </article>
@@ -70,7 +74,11 @@ const ContactBox = () => {
             <BsLinkedin className="contact__option-icon mx-auto" />
             <h4 className="dark:text-white">LinkedIn</h4>
             <h5 className="dark:text-white">Abdul Aziz</h5>
-            <a href="https://www.linkedin.com/in/abaz-id/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/abaz-id/"
+              target="_blank"
+              rel="noreferrer"
+            >
               {t("send_message")}
             </a>
           </article>
@@ -89,7 +97,7 @@ const ContactBox = () => {
           </article>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form onSubmit={sendEmail}>
           <input
             data-aos="fade-up"
             data-aos-duration="400"

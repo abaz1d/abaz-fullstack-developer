@@ -43,8 +43,8 @@
   "Contact_SubTitle": "Contact Me",
   "Contact_Description": "If You Have Questions, Contact Me Further.",
   "Name_Form": "Name",
-  "Contact_Form": "Contact",
-  "Desc_Form": "Description",
+  "Contact_Form": "Email",
+  "Desc_Form": "Message",
   "Send_Form": "Send",
   "send_message": "Send a Message",
 

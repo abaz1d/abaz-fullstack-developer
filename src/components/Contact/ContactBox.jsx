@@ -4,7 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { BsTelegram } from "react-icons/bs";
 
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const ContactBox = () => {
   const form = useRef();
@@ -14,10 +14,10 @@ const ContactBox = () => {
 
     emailjs
       .sendForm(
-        "service_yhmyh7q",
-        "template_wbpqpbr",
+        "service_n960l0b",
+        "template_hk77bp7",
         form.current,
-        "Po8nwYiPRh31wRCkt"
+        "TTD9hRoGoVh7DqSVk"
       )
       .then(
         (result) => {
@@ -97,12 +97,12 @@ const ContactBox = () => {
           </article>
         </div>
 
-        <form onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
           <input
             data-aos="fade-up"
             data-aos-duration="400"
             type="text"
-            name="name"
+            name="user_name"
             placeholder={t("Name_Form")}
             required
           />
@@ -110,7 +110,7 @@ const ContactBox = () => {
             data-aos="fade-up"
             data-aos-duration="800"
             type="email"
-            name="email"
+            name="user_email"
             placeholder={t("Contact_Form")}
             required
           />

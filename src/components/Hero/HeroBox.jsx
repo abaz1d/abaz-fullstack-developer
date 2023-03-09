@@ -37,7 +37,7 @@ const HeroBox = () => {
         <HeroSocials />
 
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
-          <img loading="lazy" src={ME} alt="me" />
+          <img fetchpriority="high" src={ME} alt="me" />
         </div>
 
         <a

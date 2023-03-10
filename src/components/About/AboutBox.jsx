@@ -4,14 +4,16 @@ import ME from "@/assets/images/me-about.webp";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import { SiJavascript } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io";
-import { SiVuedotjs } from "react-icons/si";
-import { SiReact } from "react-icons/si";
-import { SiElectron } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
+import {
+  SiJavascript,
+  SiVuedotjs,
+  SiReact,
+  SiElectron,
+  SiPostgresql,
+  SiMongodb,
+  SiTailwindcss,
+} from "react-icons/si";
 
 const AboutBox = () => {
   const { t } = useTranslation();

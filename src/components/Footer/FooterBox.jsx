@@ -2,8 +2,7 @@ import React from "react";
 import { Trans, useTranslation } from "react-i18next";
 import LOGO from "@/assets/images/logo.webp";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaGithub, FaYoutube } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 const FooterBox = () => {
@@ -28,7 +27,11 @@ const FooterBox = () => {
             <h2 className="mb-4 text-3xl font-bold text-white">Abdul Aziz</h2>
             <h3 className="mb-2 text-xl font-bold">{t("Contact_SubTitle")}</h3>
             <p className="mb-2">
-              <a href="mailto:abaz.my.id@gmail.com" target="_blank" rel="noreferrer"></a>
+              <a
+                href="mailto:abaz.my.id@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              ></a>
               abaz.my.id@gmail.com
             </p>
             <p>{t("Footer_Addres")}</p>
@@ -48,7 +51,8 @@ const FooterBox = () => {
                   <a
                     href="https://www.javascript.com/"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3" rel="noreferrer"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    rel="noreferrer"
                   >
                     JavaScript
                   </a>
@@ -57,7 +61,8 @@ const FooterBox = () => {
                   <a
                     href="https://nodejs.org/en/"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3" rel="noreferrer"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    rel="noreferrer"
                   >
                     NodeJS
                   </a>
@@ -66,7 +71,8 @@ const FooterBox = () => {
                   <a
                     href="https://vuejs.org/"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3" rel="noreferrer"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    rel="noreferrer"
                   >
                     VueJS
                   </a>
@@ -75,7 +81,8 @@ const FooterBox = () => {
                   <a
                     href="https://reactjs.org/"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3" rel="noreferrer"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    rel="noreferrer"
                   >
                     Rect & React Native
                   </a>
@@ -86,7 +93,8 @@ const FooterBox = () => {
                   <a
                     href="https://www.electronjs.org/"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3" rel="noreferrer"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    rel="noreferrer"
                   >
                     ElectronJS
                   </a>
@@ -95,7 +103,8 @@ const FooterBox = () => {
                   <a
                     href="https://www.postgresql.org/"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3" rel="noreferrer"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    rel="noreferrer"
                   >
                     PostgreSQL
                   </a>
@@ -104,7 +113,8 @@ const FooterBox = () => {
                   <a
                     href="https://www.mongodb.com/"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3" rel="noreferrer"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    rel="noreferrer"
                   >
                     MongoDB
                   </a>
@@ -113,7 +123,8 @@ const FooterBox = () => {
                   <a
                     href="https://tailwindcss.com/"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3" rel="noreferrer"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    rel="noreferrer"
                   >
                     TailwindCSS
                   </a>
@@ -183,7 +194,8 @@ const FooterBox = () => {
             <a
               href="https://github.com/abaz1d"
               target={"_blank"}
-              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary" rel="noreferrer"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary"
+              rel="noreferrer"
             >
               <FaGithub className="h-6 w-6 fill-current" />
             </a>
@@ -192,7 +204,8 @@ const FooterBox = () => {
             <a
               href="https://www.linkedin.com/in/abaz-id/"
               target={"_blank"}
-              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white" rel="noreferrer"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
+              rel="noreferrer"
             >
               <BsLinkedin className="h-5 w-5 fill-current" />
             </a>
@@ -201,7 +214,8 @@ const FooterBox = () => {
             <a
               href="mailto:abaz.my.id@gmail.com"
               target={"_blank"}
-              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white" rel="noreferrer"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
+              rel="noreferrer"
             >
               <FiMail className="h-5 w-5 fill-dark dark:fill-primary" />
             </a>
@@ -210,7 +224,8 @@ const FooterBox = () => {
             <a
               href="https://www.youtube.com/channel/UCYa4Il5c059G3y93C1vU5DQ"
               target={"_blank"}
-              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white" rel="noreferrer"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
+              rel="noreferrer"
             >
               <FaYoutube className="fill-current" />
             </a>

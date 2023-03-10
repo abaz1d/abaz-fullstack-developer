@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import LOGO from "@/assets/images/logo.webp";
 import { useTranslation } from "react-i18next";
+import { HiTranslate } from "react-icons/hi";
 
 const HeaderBox = () => {
   const { t } = useTranslation();
   const { i18n } = useTranslation();
+  const [lang, setLang] = useState(false);
 
   useEffect(() => {
     window.onscroll = () => {
@@ -20,7 +22,7 @@ const HeaderBox = () => {
     const navMenu = document.querySelector("#nav-menu");
     hamburger.addEventListener("click", function () {
       hamburger.classList.toggle("hamburger-active");
-      navMenu.classList.toggle("hidden");
+      navMenu.classList.toggle("-translate-y-[100vh]");
     });
     const sections = document.querySelectorAll("section[id]");
     window.addEventListener("scroll", navHighlighter);
@@ -42,10 +44,13 @@ const HeaderBox = () => {
       });
     }
   }, []);
+  const DropdownLang = () => {
+    setLang(() => !lang);
+  };
 
-  const onChange = (event) => {
-    let lng = event.target.value;
-    i18n.changeLanguage(lng);
+  const onChangeLang = (e) => {
+    // let lng = event.target.value;
+    i18n.changeLanguage(e);
   };
   return (
     <header className="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
@@ -75,13 +80,13 @@ const HeaderBox = () => {
             </button>
             <nav
               id="nav-menu"
-              className="absolute left-0 top-full hidden w-full rounded-lg border border-gray-100 bg-gray-50 py-5 text-lg shadow-lg dark:border-primary dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:rounded-none lg:border-0 lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
+              className="duration-900 absolute left-0 top-full w-full -translate-y-[100vh] transform rounded-lg border border-primary bg-gray-50 py-5 text-lg shadow-lg transition-all dark:bg-dark dark:shadow-slate-500 lg:static lg:block lg:max-w-full lg:translate-y-0 lg:rounded-none lg:border-0 lg:bg-transparent lg:shadow-none lg:dark:bg-transparent"
             >
-              <ul className="flex flex-col lg:mt-0 lg:flex-row lg:space-x-6 lg:text-sm lg:font-medium">
+              <ul className="flex flex-col lg:mt-0 lg:flex-row lg:space-x-5 lg:text-sm lg:font-medium">
                 <li className="group flex text-center">
                   <a
                     href="#home"
-                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_Home")}
                   </a>
@@ -89,7 +94,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#about"
-                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_About")}
                   </a>
@@ -97,7 +102,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#portfolio"
-                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_Portfolio")}
                   </a>
@@ -105,7 +110,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#clients"
-                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_Clients")}
                   </a>
@@ -113,21 +118,81 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#contact"
-                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white sm:mx-auto sm:min-w-fit"
+                    className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_Contact")}
                   </a>
                 </li>
-                <li className="group flex rounded-lg border-primary text-center">
-                  <select
-                    name="language"
-                    value={i18n.language}
-                    onChange={onChange}
-                    className="mx-auto w-[75px] cursor-pointer rounded-lg bg-white bg-opacity-0 py-2 text-base text-dark group-hover:text-primary dark:bg-dark dark:bg-opacity-0 dark:text-white"
+                <li className="group mx-auto flex items-center">
+                  <button
+                    onClick={DropdownLang}
+                    id="translate-btn"
+                    className="mx-auto hidden w-full items-center rounded-md border-2 border-transparent py-2 px-4 text-center text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:flex"
                   >
-                    <option value="id">🇮🇩 ID</option>
-                    <option value="en-US">🇺🇸 US</option>
-                  </select>
+                    <HiTranslate className="mr-1 h-6 w-6 dark:text-white" />
+                    <span className=" inline-block text-base text-dark dark:text-white">
+                      {i18n.language !== "id" ? "EN" : "ID"}
+                    </span>
+                    <span
+                      className={
+                        "ml-3 mr-1 -mt-1 h-2 w-2 rotate-45 border-b-[2px] border-r-[2px] transition-all duration-500 group-hover:border-primary" +
+                        (lang
+                          ? " mt-1 rotate-[225deg] border-primary"
+                          : " border-dark dark:border-white")
+                      }
+                    ></span>
+                  </button>
+                  <div
+                    className={
+                      "duration-900 absolute top-24 right-0 z-10 w-56 origin-top-right transform rounded-md border-2 bg-white p-4 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:border-primary dark:bg-dark dark:shadow-slate-500" +
+                      (lang ? " translate-y-0" : " -translate-y-[100vh]")
+                    }
+                    tabIndex="-1"
+                  >
+                    <ul className="flex flex-col">
+                      <li
+                        onClick={() => onChangeLang("id")}
+                        className={
+                          "mx-auto flex w-full cursor-pointer justify-center rounded-md border-2 border-transparent py-2 text-base text-dark no-underline decoration-primary underline-offset-4 transition-all hover:border-primary hover:bg-transparent hover:underline dark:text-white" +
+                          (i18n.language === "id" ? " bg-primary" : "")
+                        }
+                      >
+                        Bahasa Indonesia
+                      </li>
+                      <li
+                        onClick={() => onChangeLang("en-Us")}
+                        className={
+                          "mx-auto flex w-full cursor-pointer justify-center rounded-md border-2 border-transparent py-2 text-base text-dark no-underline decoration-primary underline-offset-4 hover:border-primary hover:bg-transparent hover:underline dark:text-white" +
+                          (i18n.language !== "id" ? " bg-primary" : "")
+                        }
+                      >
+                        English
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="mx-4 flex w-full items-center rounded-md border-2 border-transparent py-2 px-4 text-center text-base text-dark">
+                    <HiTranslate className="mr-2 h-6 w-6 dark:text-white lg:hidden" />
+                    <div className="rounded-full bg-gray-300 px-3 py-2 text-center lg:hidden">
+                      <button
+                        className={
+                          " inline-block rounded-full px-8 py-1 text-base font-semibold uppercase lg:hidden lg:bg-transparent lg:px-0 lg:py-0" +
+                          (i18n.language == "id" ? " bg-primary" : "bg-dark")
+                        }
+                        onClick={() => onChangeLang("id")}
+                      >
+                        ID
+                      </button>
+                      <button
+                        className={
+                          " inline-block rounded-full px-8 py-1 text-base font-semibold uppercase lg:hidden lg:bg-transparent lg:px-0 lg:py-0" +
+                          (i18n.language !== "id" ? " bg-primary" : "bg-dark")
+                        }
+                        onClick={() => onChangeLang("en-US")}
+                      >
+                        EN
+                      </button>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </nav>

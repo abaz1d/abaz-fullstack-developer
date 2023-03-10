@@ -80,6 +80,7 @@ const HeaderBox = () => {
               id="hamburger-btn"
               type="button"
               className="absolute right-4 block lg:hidden"
+              aria-label="hamburger"
             >
               <span className="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
               <span className="hamburger-line transition duration-300 ease-in-out"></span>

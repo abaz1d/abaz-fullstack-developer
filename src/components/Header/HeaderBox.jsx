@@ -59,6 +59,7 @@ const HeaderBox = () => {
           <div className="px-4" data-aos="fade-right" data-aos-duration="1500">
             <a
               href="#home"
+              aria-label="nav"
               className="block py-6 text-lg font-bold text-primary"
             >
               <img
@@ -92,6 +93,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#home"
+                    aria-label="nav"
                     className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_Home")}
@@ -100,6 +102,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#about"
+                    aria-label="nav"
                     className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_About")}
@@ -108,6 +111,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#portfolio"
+                    aria-label="nav"
                     className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_Portfolio")}
@@ -116,6 +120,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#clients"
+                    aria-label="nav"
                     className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_Clients")}
@@ -124,6 +129,7 @@ const HeaderBox = () => {
                 <li className="group flex text-center">
                   <a
                     href="#contact"
+                    aria-label="nav"
                     className="mx-4 w-full rounded-md border-2 border-transparent py-2 px-4 text-base text-dark hover:border-primary group-hover:bg-transparent group-hover:text-primary dark:text-white lg:mx-auto lg:min-w-fit"
                   >
                     {t("Nav_Contact")}

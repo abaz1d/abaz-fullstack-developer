@@ -106,6 +106,7 @@ const AboutBox = () => {
                 data-aos="fade-down"
                 data-aos-duration="300"
                 rel="noreferrer"
+                aria-label="techstack"
               >
                 <SiJavascript className="h-7 w-7 bg-black fill-current shadow-inner shadow-slate-500 hover:bg-primary" />
               </a>
@@ -118,6 +119,7 @@ const AboutBox = () => {
                 data-aos="fade-down"
                 data-aos-duration="600"
                 rel="noreferrer"
+                aria-label="techstack"
               >
                 <IoLogoNodejs className="h-7 w-7 fill-current" />
               </a>
@@ -130,6 +132,7 @@ const AboutBox = () => {
                 data-aos="fade-down"
                 data-aos-duration="900"
                 rel="noreferrer"
+                aria-label="techstack"
               >
                 <SiVuedotjs className="h-7 w-7 fill-current" />
               </a>
@@ -142,6 +145,7 @@ const AboutBox = () => {
                 data-aos="fade-down"
                 data-aos-duration="1200"
                 rel="noreferrer"
+                aria-label="techstack"
               >
                 <SiReact className="h-7 w-7 fill-current" />
               </a>
@@ -154,6 +158,7 @@ const AboutBox = () => {
                 data-aos="fade-down"
                 data-aos-duration="1500"
                 rel="noreferrer"
+                aria-label="techstack"
               >
                 <SiElectron className="h-7 w-7 fill-current" />
               </a>
@@ -166,6 +171,7 @@ const AboutBox = () => {
                 data-aos="fade-down"
                 data-aos-duration="1800"
                 rel="noreferrer"
+                aria-label="techstack"
               >
                 <SiPostgresql className="h-7 w-7 fill-current" />
               </a>
@@ -178,6 +184,7 @@ const AboutBox = () => {
                 data-aos="fade-down"
                 data-aos-duration="2100"
                 rel="noreferrer"
+                aria-label="techstack"
               >
                 <SiMongodb className="h-7 w-7 fill-current" />
               </a>
@@ -190,6 +197,7 @@ const AboutBox = () => {
                 data-aos="fade-down"
                 data-aos-duration="2400"
                 rel="noreferrer"
+                aria-label="techstack"
               >
                 <SiTailwindcss className="h-7 w-7 fill-current" />
               </a>

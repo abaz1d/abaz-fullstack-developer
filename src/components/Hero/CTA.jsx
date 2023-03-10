@@ -19,6 +19,7 @@ const CTA = () => {
         data-aos="fade-up-right"
         data-aos-duration="900"
         href="#contact"
+        aria-label="cp"
         className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent"
       >
         {t("HeroBox_Contactme")}

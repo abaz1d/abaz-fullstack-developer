@@ -51,6 +51,7 @@ const ClientsBox = () => {
               data-aos="fade-up"
               data-aos-duration="1800"
               rel="noreferrer"
+              aria-label="clients"
             >
               <img
                 src={abadan}
@@ -73,6 +74,7 @@ const ClientsBox = () => {
               data-aos="fade-up"
               data-aos-duration="1200"
               rel="noreferrer"
+              aria-label="clients"
             >
               <img
                 src={birookk}
@@ -96,6 +98,7 @@ const ClientsBox = () => {
               data-aos="flip-down"
               data-aos-duration="600"
               rel="noreferrer"
+              aria-label="clients"
             >
               <img
                 src={anlimitid}
@@ -118,6 +121,7 @@ const ClientsBox = () => {
               data-aos="fade-down"
               data-aos-duration="1200"
               rel="noreferrer"
+              aria-label="clients"
             >
               <img
                 src={lurikrachmad}
@@ -140,6 +144,7 @@ const ClientsBox = () => {
               data-aos="fade-down"
               data-aos-duration="1800"
               rel="noreferrer"
+              aria-label="clients"
             >
               <img
                 src={binaniaga}

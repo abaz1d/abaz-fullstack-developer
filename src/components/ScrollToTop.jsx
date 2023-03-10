@@ -36,6 +36,7 @@ export default function ScrollToTop() {
             className="fixed right-4 bottom-5 z-[9999] flex h-12 w-12 items-center justify-center rounded-full bg-primary p-2 hover:animate-pulse"
             data-aos="fade-down"
             data-aos-duration="500"
+            aria-label="totop"
           >
             <div data-aos="fade-up" data-aos-duration="500">
               <span className="mt-2 block h-5 w-5 rotate-45 border-t-[3px] border-l-[3px] dark:border-dark"></span>

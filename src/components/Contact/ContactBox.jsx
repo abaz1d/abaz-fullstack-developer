@@ -61,6 +61,7 @@ const ContactBox = () => {
               href="mailto:abaz.my.id@gmail.com"
               target="_blank"
               rel="noreferrer"
+              aria-label="cp"
             >
               {t("send_message")}
             </a>
@@ -78,6 +79,7 @@ const ContactBox = () => {
               href="https://www.linkedin.com/in/abaz-id/"
               target="_blank"
               rel="noreferrer"
+              aria-label="cp"
             >
               {t("send_message")}
             </a>

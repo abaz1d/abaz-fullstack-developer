@@ -31,6 +31,7 @@ const FooterBox = () => {
             <p className="mb-2">
               <a
                 href="mailto:abaz.my.id@gmail.com"
+                aria-label="footer"
                 target="_blank"
                 rel="noreferrer"
               ></a>
@@ -52,6 +53,7 @@ const FooterBox = () => {
                 <li>
                   <a
                     href="https://www.javascript.com/"
+                    aria-label="footer"
                     target="_blank"
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                     rel="noreferrer"
@@ -62,6 +64,7 @@ const FooterBox = () => {
                 <li>
                   <a
                     href="https://nodejs.org/en/"
+                    aria-label="footer"
                     target="_blank"
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                     rel="noreferrer"
@@ -72,6 +75,7 @@ const FooterBox = () => {
                 <li>
                   <a
                     href="https://vuejs.org/"
+                    aria-label="footer"
                     target="_blank"
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                     rel="noreferrer"
@@ -82,6 +86,7 @@ const FooterBox = () => {
                 <li>
                   <a
                     href="https://reactjs.org/"
+                    aria-label="footer"
                     target="_blank"
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                     rel="noreferrer"
@@ -94,6 +99,7 @@ const FooterBox = () => {
                 <li>
                   <a
                     href="https://www.electronjs.org/"
+                    aria-label="footer"
                     target="_blank"
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                     rel="noreferrer"
@@ -104,6 +110,7 @@ const FooterBox = () => {
                 <li>
                   <a
                     href="https://www.postgresql.org/"
+                    aria-label="footer"
                     target="_blank"
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                     rel="noreferrer"
@@ -114,6 +121,7 @@ const FooterBox = () => {
                 <li>
                   <a
                     href="https://www.mongodb.com/"
+                    aria-label="footer"
                     target="_blank"
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                     rel="noreferrer"
@@ -124,6 +132,7 @@ const FooterBox = () => {
                 <li>
                   <a
                     href="https://tailwindcss.com/"
+                    aria-label="footer"
                     target="_blank"
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                     rel="noreferrer"
@@ -146,6 +155,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#home"
+                  aria-label="footer"
                   className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                 >
                   {t("Nav_Home")}
@@ -154,6 +164,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#about"
+                  aria-label="footer"
                   className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                 >
                   {t("Nav_About")}
@@ -162,6 +173,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#portfolio"
+                  aria-label="footer"
                   className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                 >
                   {t("Nav_Portfolio")}
@@ -170,6 +182,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#clients"
+                  aria-label="footer"
                   className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                 >
                   {t("Nav_Clients")}
@@ -178,6 +191,7 @@ const FooterBox = () => {
               <li>
                 <a
                   href="#contact"
+                  aria-label="footer"
                   className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
                 >
                   {t("Nav_Contact")}
@@ -195,6 +209,7 @@ const FooterBox = () => {
             {/* Github */}
             <a
               href="https://github.com/abaz1d"
+              aria-label="footer"
               target={"_blank"}
               className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary"
               rel="noreferrer"
@@ -205,6 +220,7 @@ const FooterBox = () => {
             {/* Linkedin */}
             <a
               href="https://www.linkedin.com/in/abaz-id/"
+              aria-label="footer"
               target={"_blank"}
               className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
               rel="noreferrer"
@@ -215,6 +231,7 @@ const FooterBox = () => {
             {/* Gmail */}
             <a
               href="mailto:abaz.my.id@gmail.com"
+              aria-label="footer"
               target={"_blank"}
               className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
               rel="noreferrer"
@@ -225,6 +242,7 @@ const FooterBox = () => {
             {/* Youtube */}
             <a
               href="https://www.youtube.com/channel/UCYa4Il5c059G3y93C1vU5DQ"
+              aria-label="footer"
               target={"_blank"}
               className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
               rel="noreferrer"

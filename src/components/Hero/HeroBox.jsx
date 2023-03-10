@@ -8,7 +8,7 @@ const HeroBox = () => {
   const { t } = useTranslation();
   return (
     <section
-      className="h-screen overflow-hidden pt-[5rem] dark:bg-dark sm:pt-[6.5rem]"
+      className="h-[850px] overflow-hidden pt-[5rem] dark:bg-dark sm:pt-[6.5rem] lg:h-[880px]"
       id="home"
     >
       <div className="hero__container container rounded-t-full dark:bg-dark">
@@ -48,6 +48,7 @@ const HeroBox = () => {
 
         <a
           href="#contact"
+          aria-label="cp"
           className="scroll__down text-secondary dark:text-primary"
         >
           {t("HeroBox_Scroll")}

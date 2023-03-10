@@ -21,6 +21,8 @@ const FooterBox = () => {
               <img
                 src={LOGO}
                 alt="logo"
+                width={56}
+                height={50}
                 className="mx-auto mb-4 h-14 rounded-md bg-dark p-2 sm:mx-0"
               />
             </div>

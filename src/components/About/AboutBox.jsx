@@ -59,7 +59,7 @@ const AboutBox = () => {
               data-aos-duration="400"
             >
               <FaAward className="about__icon mx-auto" />
-              <h5>{t("AboutBox_Experience")}</h5>
+              <h4>{t("AboutBox_Experience")}</h4>
               <small>{t("AboutBox_Experience2")}</small>
             </article>
 
@@ -69,7 +69,7 @@ const AboutBox = () => {
               data-aos-duration="700"
             >
               <FiUsers className="about__icon mx-auto" />
-              <h5>{t("Nav_Clients")}</h5>
+              <h4>{t("Nav_Clients")}</h4>
               <small>{t("AboutBox_Clients2")}</small>
             </article>
 
@@ -79,7 +79,7 @@ const AboutBox = () => {
               data-aos-duration="1000"
             >
               <VscFolderLibrary className="about__icon mx-auto" />
-              <h5>{t("AboutBox_Projects")}</h5>
+              <h4>{t("AboutBox_Projects")}</h4>
               <small>{t("AboutBox_Projects2")}</small>
             </article>
           </div>
@@ -90,13 +90,13 @@ const AboutBox = () => {
             <Trans components={{ a: <a /> }}>{t("AboutBox_Description")}</Trans>
           </p>
           <div className="w-full px-4">
-            <h5
+            <h4
               className="mb-5 text-center text-xl font-bold text-dark dark:text-white sm:text-left sm:text-[2em]"
               data-aos="fade-down"
               data-aos-duration="800"
             >
               <Trans components={{ i: <i /> }}>{t("Main_Tech")}</Trans>
-            </h5>
+            </h4>
             <div className="mb-14 -ml-2 flex items-center">
               {/* JavaScript */}
               <a

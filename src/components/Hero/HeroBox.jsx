@@ -12,27 +12,27 @@ const HeroBox = () => {
       id="home"
     >
       <div className="hero__container container rounded-t-full dark:bg-dark">
-        <span
+        <h1
           className="text-[1em] font-medium  text-primary dark:text-white sm:text-lg"
           data-aos="fade-up-right"
           data-aos-duration="800"
         >
           {t("HeroBox_Title")}
-        </span>
-        <h1
+        </h1>
+        <h2
           className="text-[2.5rem] font-medium text-primary dark:text-white"
           data-aos="zoom-in-down"
           data-aos-duration="1500"
         >
           Abdul Aziz
-        </h1>
-        <h5
+        </h2>
+        <h3
           className="text-secondary"
           data-aos="fade-up-left"
           data-aos-duration="800"
         >
           <Trans components={{ i: <i /> }}>{t("HeroBox_Subtitle")}</Trans>
-        </h5>
+        </h3>
         <CTA />
         <HeroSocials />
 

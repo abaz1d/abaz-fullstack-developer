@@ -200,11 +200,7 @@ const FooterBox = () => {
             </ul>
           </div>
         </div>
-        <div
-          className="w-full border-t border-slate-600 pt-10"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
+        <div className="w-full border-t border-slate-600 pt-10">
           <div className="mb-5 flex items-center justify-center">
             {/* Github */}
             <a

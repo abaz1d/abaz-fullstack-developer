@@ -22,20 +22,20 @@ const AboutBox = () => {
       id="about"
       className="bg-slate-300 dark:bg-slate-900 sm:pt-24 sm:pb-24"
     >
-      <h5
+      <h2
         className="mb-2 text-center text-[1em] font-semibold text-primary sm:text-lg"
         data-aos="fade-up"
         data-aos-duration="800"
       >
         {t("AboutBox_SubTitle")}
-      </h5>
-      <h2
+      </h2>
+      <h3
         className="mb-12 text-center text-3xl font-bold text-dark dark:text-white sm:text-[2em]"
         data-aos="fade-down"
         data-aos-duration="800"
       >
         {t("AboutBox_Title")}
-      </h2>
+      </h3>
 
       <div className="about__container container">
         <div className="about__me" data-aos="fade-down" data-aos-duration="800">

@@ -17,20 +17,20 @@ const ClientsBox = () => {
       <div className="container">
         <div className="w-full px-4">
           <div className="mx-auto mb-16 text-center">
-            <h5
+            <h2
               className="mb-2 text-[1em] font-semibold text-primary sm:text-lg"
               data-aos="fade-up"
               data-aos-duration="1200"
             >
               {t("Clients_SubTitle")}
-            </h5>
-            <h2
+            </h2>
+            <h3
               className="mb-4 text-3xl font-bold text-dark dark:text-white sm:text-4xl"
               data-aos="fade-down"
               data-aos-duration="1200"
             >
               {t("Nav_Clients")}
-            </h2>
+            </h3>
             <p
               className="text-md font-medium text-slate-600 dark:text-slate-400 md:text-lg"
               data-aos="fade-zoom-in"

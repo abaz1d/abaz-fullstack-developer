@@ -33,20 +33,20 @@ const ContactBox = () => {
 
   return (
     <section id="contact" className="dark:bg-dark sm:pt-24 sm:pb-24">
-      <h5
+      <h2
         className="text-center text-[1em] font-medium  text-secondary dark:text-white sm:text-lg"
         data-aos="fade-down"
         data-aos-duration="800"
       >
         {t("Contact_Description")}
-      </h5>
-      <h2
+      </h2>
+      <h3
         className="mb-12 text-center text-[2em] font-medium text-primary"
         data-aos="fade-up"
         data-aos-duration="800"
       >
         {t("Nav_Contact")}
-      </h2>
+      </h3>
       <div className="contact__container container">
         <div className="contact__options">
           <article

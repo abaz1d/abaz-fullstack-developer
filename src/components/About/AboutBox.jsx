@@ -41,7 +41,13 @@ const AboutBox = () => {
         <div className="about__me" data-aos="fade-down" data-aos-duration="800">
           {" "}
           <div className="about__me-image grayscale hover:grayscale-0">
-            <img src={ME} alt="About image" loading="lazy" />
+            <img
+              src={ME}
+              alt="About image"
+              loading="lazy"
+              width={250}
+              height={250}
+            />
           </div>
         </div>
 

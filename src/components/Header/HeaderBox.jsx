@@ -61,7 +61,13 @@ const HeaderBox = () => {
               href="#home"
               className="block py-6 text-lg font-bold text-primary"
             >
-              <img src={LOGO} alt="logo" className="-my-4 h-12" />
+              <img
+                src={LOGO}
+                alt="logo"
+                className="-my-4 h-12"
+                width={48}
+                height={50}
+              />
             </a>
           </div>
           <div

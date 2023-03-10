@@ -52,7 +52,13 @@ const ClientsBox = () => {
               data-aos-duration="1800"
               rel="noreferrer"
             >
-              <img src={abadan} alt="abadan" loading="lazy" />
+              <img
+                src={abadan}
+                alt="abadan"
+                loading="lazy"
+                height={200}
+                width={200}
+              />
               <span
                 className="absolute left-1/2 -top-32 m-4 mx-auto w-full -translate-x-1/2 translate-y-full rounded-md bg-dark p-2 
     text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
@@ -68,7 +74,13 @@ const ClientsBox = () => {
               data-aos-duration="1200"
               rel="noreferrer"
             >
-              <img src={birookk} alt="birookk" loading="lazy" />
+              <img
+                src={birookk}
+                alt="birookk"
+                loading="lazy"
+                height={200}
+                width={200}
+              />
               <span
                 className="absolute left-1/2 -top-32 m-4 mx-auto w-full -translate-x-1/2 translate-y-full rounded-md bg-dark p-2 
     text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
@@ -85,7 +97,13 @@ const ClientsBox = () => {
               data-aos-duration="600"
               rel="noreferrer"
             >
-              <img src={anlimitid} alt="anlimitid" loading="lazy" />
+              <img
+                src={anlimitid}
+                alt="anlimitid"
+                loading="lazy"
+                height={200}
+                width={200}
+              />
               <span
                 className="absolute left-1/2 -top-20 m-4 mx-auto w-full -translate-x-1/2 translate-y-full rounded-md bg-dark p-2 
     text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
@@ -101,7 +119,13 @@ const ClientsBox = () => {
               data-aos-duration="1200"
               rel="noreferrer"
             >
-              <img src={lurikrachmad} alt="lurikrachmad" loading="lazy" />
+              <img
+                src={lurikrachmad}
+                alt="lurikrachmad"
+                loading="lazy"
+                height={200}
+                width={200}
+              />
               <span
                 className="absolute left-1/2 -top-20 m-4 mx-auto w-full -translate-x-1/2 translate-y-full rounded-md bg-dark p-2 
     text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
@@ -117,7 +141,13 @@ const ClientsBox = () => {
               data-aos-duration="1800"
               rel="noreferrer"
             >
-              <img src={binaniaga} alt="binaniaga" loading="lazy" />
+              <img
+                src={binaniaga}
+                alt="binaniaga"
+                loading="lazy"
+                height={200}
+                width={200}
+              />
               <span
                 className="absolute left-1/2 -top-32 m-4 mx-auto w-full -translate-x-1/2 translate-y-full rounded-md bg-dark p-2 
     text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"

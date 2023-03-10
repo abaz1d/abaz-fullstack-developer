@@ -37,7 +37,13 @@ const HeroBox = () => {
         <HeroSocials />
 
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
-          <img fetchpriority="high" src={ME} alt="me" />
+          <img
+            fetchpriority="high"
+            src={ME}
+            alt="me"
+            height={1000}
+            width={500}
+          />
         </div>
 
         <a

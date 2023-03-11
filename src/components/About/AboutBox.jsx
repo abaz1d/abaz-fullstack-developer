@@ -52,7 +52,7 @@ const AboutBox = () => {
         </div>
 
         <div className="about__content">
-          <div className="flex flex-wrap items-center justify-center gap-6 text-center sm:justify-start">
+          <div className="flex flex-wrap items-center justify-center gap-6 text-center lg:justify-start">
             <article
               className="about__card cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
               data-aos="fade-down"
@@ -91,13 +91,13 @@ const AboutBox = () => {
           </p>
           <div className="w-full px-4">
             <h4
-              className="mb-5 text-center text-xl font-bold text-dark dark:text-white sm:text-left sm:text-[2em]"
+              className="ls:text-left ls:text-[2em] mb-5 text-center text-xl font-bold text-dark dark:text-white lg:text-left"
               data-aos="fade-down"
               data-aos-duration="800"
             >
               <Trans components={{ i: <i /> }}>{t("Main_Tech")}</Trans>
             </h4>
-            <div className="mb-14 -ml-2 flex items-center">
+            <div className="mb-14 -ml-2 flex justify-center lg:justify-start">
               {/* JavaScript */}
               <a
                 href="https://www.javascript.com/"
@@ -206,7 +206,7 @@ const AboutBox = () => {
           </div>
           <a
             href="#contact"
-            className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent"
+            className="mx-auto flex max-w-fit rounded-md  border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent lg:mx-0"
             data-aos="fade-up"
             data-aos-duration="1500"
           >

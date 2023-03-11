@@ -1,17 +1,17 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { MdOutlineEmail } from "react-icons/md";
-import { BsLinkedin } from "react-icons/bs";
-import { BsTelegram } from "react-icons/bs";
+import { BsLinkedin, BsTelegram } from "react-icons/bs";
+import { FaInfoCircle } from "react-icons/fa";
 
 import emailjs from "@emailjs/browser";
 
 const ContactBox = () => {
   const form = useRef();
+  const [showAlert, setShowAlert] = useState(false);
   const { t } = useTranslation();
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_n960l0b",
@@ -21,10 +21,13 @@ const ContactBox = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          setShowAlert(true);
+          setTimeout(() => {
+            setShowAlert(false);
+          }, 2500);
         },
         (error) => {
-          console.log(error.text);
+          alert(error.text);
         }
       );
 
@@ -47,8 +50,21 @@ const ContactBox = () => {
       >
         {t("Nav_Contact")}
       </h3>
+      <div
+        class={
+          "fixed left-0 right-0 top-20 z-10 mx-auto flex max-w-fit animate-pulse items-center rounded border-2 border-primary  bg-blue-50 p-4 text-sm text-dark shadow-lg shadow-slate-500 dark:bg-dark dark:text-white sm:top-24" +
+          (showAlert ? " translate-y-0" : " translate-y-[100vh]")
+        }
+      >
+        <div>
+          <FaInfoCircle />
+        </div>
+        <div class="w-full">
+          <p className="mx-2 text-[15px]">{t("sent")}</p>
+        </div>
+      </div>
       <div className="contact__container container">
-        <div className="contact__options">
+        <div className="contact__options mb-5 sm:mb-0">
           <article
             className="contact__option cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
             data-aos="fade-right-down"

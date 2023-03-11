@@ -35,9 +35,9 @@ const ContactBox = () => {
   };
 
   return (
-    <section id="contact" className="dark:bg-dark sm:pt-24 sm:pb-24">
+    <section id="contact" className="dark:bg-dark lg:pt-24 lg:pb-24">
       <h2
-        className="text-center text-[1em] font-medium  text-secondary dark:text-white sm:text-lg"
+        className="text-center text-[1em] font-medium  text-secondary dark:text-white lg:text-lg"
         data-aos="fade-down"
         data-aos-duration="800"
       >
@@ -52,7 +52,7 @@ const ContactBox = () => {
       </h3>
       <div
         class={
-          "fixed left-0 right-0 top-20 z-10 mx-auto flex max-w-fit animate-pulse items-center rounded border-2 border-primary  bg-blue-50 p-4 text-sm text-dark shadow-lg shadow-slate-500 dark:bg-dark dark:text-white sm:top-24" +
+          "fixed left-0 right-0 top-20 z-10 mx-auto flex max-w-fit animate-pulse items-center rounded border-2 border-primary  bg-blue-50 p-4 text-sm text-dark shadow-lg shadow-slate-500 dark:bg-dark dark:text-white lg:top-24" +
           (showAlert ? " translate-y-0" : " translate-y-[100vh]")
         }
       >
@@ -64,7 +64,7 @@ const ContactBox = () => {
         </div>
       </div>
       <div className="contact__container container">
-        <div className="contact__options mb-5 sm:mb-0">
+        <div className="contact__options mb-5 lg:mb-0">
           <article
             className="contact__option cursor-default border-2 border-primary hover:bg-transparent dark:border-[#2c2c6c]"
             data-aos="fade-right-down"

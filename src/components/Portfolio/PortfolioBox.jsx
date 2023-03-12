@@ -37,8 +37,8 @@ const PortfolioBox = () => {
               src={IMG1}
               alt="project1"
               loading="lazy"
-              width={483}
-              height={363}
+              width={476}
+              height={365}
             />
           </div>
           <h3 className="text-center"> {t("p1_name")}</h3>
@@ -144,7 +144,7 @@ const PortfolioBox = () => {
               alt="project4"
               loading="lazy"
               width={483}
-              height={363}
+              height={364}
             />
           </div>
           <h3 className="text-center">{t("p4_name")}</h3>
@@ -178,8 +178,8 @@ const PortfolioBox = () => {
               src={IMG5}
               alt="project5"
               loading="lazy"
-              width={483}
-              height={363}
+              width={1280}
+              height={964}
             />
           </div>
           <h3 className="text-center">{t("p5_name")}</h3>
@@ -213,8 +213,8 @@ const PortfolioBox = () => {
               src={IMG6}
               alt="project6"
               loading="lazy"
-              width={483}
-              height={363}
+              width={1280}
+              height={964}
             />
           </div>
           <h3 className="text-center">{t("p6_name")}</h3>

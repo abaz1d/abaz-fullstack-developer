@@ -63,15 +63,15 @@ const HeaderBox = () => {
             <a
               href="#home"
               aria-label="nav"
-              className="block py-6 text-lg font-bold text-primary"
+              className="block h-12 min-w-fit py-6 text-lg  font-bold text-primary"
             >
               <img
                 src={small}
                 srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
                 alt="logo"
-                className="-my-4 mr-20 h-12 min-w-fit"
-                width={32}
-                height={32}
+                className="-my-4 mr-20"
+                width={48}
+                height={48}
               />
             </a>
           </div>

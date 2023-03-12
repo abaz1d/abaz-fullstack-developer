@@ -50,15 +50,10 @@ const HeaderBox = () => {
   const DropdownLang = () => {
     setLang(() => !lang);
   };
-
   const onChangeLang = (e) => {
     // let lng = event.target.value;
     i18n.changeLanguage(e);
   };
-  // const stylelogo = {
-  //   height: "48px",
-  //   width: auto,
-  // };
   return (
     <header className="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
       <div className="container">
@@ -74,10 +69,9 @@ const HeaderBox = () => {
                 srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
                 alt="logo"
                 className="-my-4 mr-20 h-12"
-                // style={stylelogo}
-                // onLoad={lload, wid}
-                // width="auto"
-                // height="auto"
+                placeholder={small}
+                // width={48}
+                // height={48}
               />
             </a>
           </div>

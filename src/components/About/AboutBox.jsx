@@ -49,8 +49,8 @@ const AboutBox = () => {
               srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
               alt="About image"
               loading="lazy"
-              width={3264}
-              height={3264}
+              width={960}
+              height={960}
             />
           </div>
         </div>

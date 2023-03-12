@@ -45,8 +45,8 @@ const HeroBox = () => {
             srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
             src={small}
             alt="me"
-            height={1000}
-            width={500}
+            height={960}
+            width={633}
           />
         </div>
 

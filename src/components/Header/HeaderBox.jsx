@@ -70,8 +70,8 @@ const HeaderBox = () => {
                 alt="logo"
                 className="-my-4 mr-20 h-12"
                 placeholder={small}
-                // width={48}
-                // height={48}
+                width={48}
+                height={48}
               />
             </a>
           </div>

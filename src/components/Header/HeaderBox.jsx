@@ -69,7 +69,7 @@ const HeaderBox = () => {
                 srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
                 alt="logo"
                 className="-my-4 mr-20 h-12"
-                placeholder={small}
+                // placeholder={small}
                 width={48}
                 height={48}
               />

@@ -50,6 +50,9 @@ const HeaderBox = () => {
   const DropdownLang = () => {
     setLang(() => !lang);
   };
+  const lload = ({ target: img }) => {
+    console.log("img", img, img.offsetHeight);
+  };
 
   const onChangeLang = (e) => {
     // let lng = event.target.value;
@@ -69,9 +72,10 @@ const HeaderBox = () => {
                 src={small}
                 srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
                 alt="logo"
-                className="-my-4 mr-20"
-                width={48}
-                height={48}
+                className="-my-4 mr-20 h-12"
+                // onLoad={lload, wid}
+                width="auto"
+                height="auto"
               />
             </a>
           </div>

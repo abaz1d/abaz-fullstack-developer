@@ -65,7 +65,7 @@ const HeaderBox = () => {
               <img
                 src={LOGO}
                 alt="logo"
-                className="-my-4 h-12"
+                className="-my-4 mr-20 h-12 min-w-fit"
                 width={48}
                 height={50}
               />

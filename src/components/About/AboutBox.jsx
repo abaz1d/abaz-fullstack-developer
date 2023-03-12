@@ -1,6 +1,9 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
-import ME from "@/assets/images/me-about.webp";
+import xlarge from "@/assets/images/me-about/me-about3200.webp";
+import large from "@/assets/images/me-about/me-about1280.webp";
+import medium from "@/assets/images/me-about/me-about768.webp";
+import small from "@/assets/images/me-about/me-about300.webp";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -42,7 +45,8 @@ const AboutBox = () => {
           {" "}
           <div className="about__me-image grayscale hover:grayscale-0">
             <img
-              src={ME}
+              src={small}
+              srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
               alt="About image"
               loading="lazy"
               width={3264}

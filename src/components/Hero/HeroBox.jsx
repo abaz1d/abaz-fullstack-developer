@@ -1,6 +1,9 @@
 import React from "react";
 import CTA from "./CTA";
-import ME from "@/assets/images/aku.webp";
+import xlarge from "@/assets/images/me/aku3200.webp";
+import large from "@/assets/images/me/aku1280.webp";
+import medium from "@/assets/images/me/aku768.webp";
+import small from "@/assets/images/me/aku300.webp";
 import HeroSocials from "./HeroSocials";
 import { Trans, useTranslation } from "react-i18next";
 
@@ -39,7 +42,8 @@ const HeroBox = () => {
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
           <img
             fetchpriority="high"
-            src={ME}
+            srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
+            src={small}
             alt="me"
             height={1000}
             width={500}

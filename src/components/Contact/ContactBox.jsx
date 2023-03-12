@@ -51,7 +51,7 @@ const ContactBox = () => {
         {t("Nav_Contact")}
       </h3>
       <div
-        class={
+        className={
           "fixed left-0 right-0 top-20 z-10 mx-auto flex max-w-fit animate-pulse items-center rounded border-2 border-primary  bg-blue-50 p-4 text-sm text-dark shadow-lg shadow-slate-500 dark:bg-dark dark:text-white lg:top-24" +
           (showAlert ? " translate-y-0" : " translate-y-[100vh]")
         }
@@ -59,7 +59,7 @@ const ContactBox = () => {
         <div>
           <FaInfoCircle />
         </div>
-        <div class="w-full">
+        <div className="w-full">
           <p className="mx-2 text-[15px]">{t("sent")}</p>
         </div>
       </div>

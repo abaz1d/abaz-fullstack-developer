@@ -21,7 +21,7 @@ export default defineConfig(({ command, mode }) => ({
       },
     },
   },
-  plugins: [react(), Sitemap()],
+  plugins: [react(), Sitemap({ hostname: "https://abazdev.com/" })],
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

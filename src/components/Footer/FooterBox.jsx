@@ -20,7 +20,6 @@ const FooterBox = () => {
             <div>
               <img
                 src={LOGO}
-                // srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
                 alt="logo"
                 width={56}
                 height={50}

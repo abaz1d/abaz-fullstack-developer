@@ -1,6 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
-import ME from "@/assets/images/me.svg";
+import ME from "@/assets/images/me/me.svg";
 import HeroSocials from "./HeroSocials";
 import { Trans, useTranslation } from "react-i18next";
 

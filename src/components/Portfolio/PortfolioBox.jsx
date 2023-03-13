@@ -48,7 +48,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/Koperasi-App-ElectronJS"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent" rel="noreferrer"
             >
               Github
             </a>
@@ -56,7 +56,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/Koperasi-App-ElectronJS"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent" rel="noreferrer"
             >
               Detail
             </a>
@@ -83,7 +83,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/Tech-Anlimitid"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent" rel="noreferrer"
             >
               Github
             </a>
@@ -91,7 +91,7 @@ const PortfolioBox = () => {
               href="http://153.92.210.7:3003/"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent" rel="noreferrer"
             >
               Detail
             </a>
@@ -118,7 +118,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/POS-LurikRachmad-Vue-3"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent" rel="noreferrer"
             >
               Github
             </a>
@@ -126,7 +126,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/POS-LurikRachmad-Vue-3/blob/main/README.md"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent" rel="noreferrer"
             >
               Detail
             </a>
@@ -153,7 +153,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/BiroUmrah"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent" rel="noreferrer"
             >
               Github
             </a>
@@ -161,7 +161,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/BiroUmrah"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent" rel="noreferrer"
             >
               Detail
             </a>
@@ -188,7 +188,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/Chat-Vue3-Mongoose"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent" rel="noreferrer"
             >
               Github
             </a>
@@ -196,7 +196,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/Chat-Vue3-Mongoose#readme"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent" rel="noreferrer"
             >
               Detail
             </a>
@@ -223,7 +223,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/Laundry-App"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-white py-3 px-8 text-base font-semibold text-primary transition duration-300 ease-in-out hover:border-primary hover:bg-primary hover:text-white hover:opacity-80 hover:shadow-lg dark:bg-transparent" rel="noreferrer"
             >
               Github
             </a>
@@ -231,7 +231,7 @@ const PortfolioBox = () => {
               href="https://github.com/abaz1d/Laundry-App#readme"
               aria-label="portfolio"
               target={"_blank"}
-              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent"
+              className="rounded-md border-2 border-primary bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-slate-200 hover:text-primary hover:opacity-80 hover:shadow-lg hover:dark:bg-transparent" rel="noreferrer"
             >
               Detail
             </a>

@@ -43,7 +43,6 @@ const AboutBox = () => {
           <div className="about__me-image grayscale hover:grayscale-0">
             <img
               src={ME}
-              // srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
               alt="About image"
               loading="lazy"
               width={960}

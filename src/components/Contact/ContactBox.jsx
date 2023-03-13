@@ -20,7 +20,7 @@ const ContactBox = () => {
         "TTD9hRoGoVh7DqSVk"
       )
       .then(
-        (result) => {
+        () => {
           setShowAlert(true);
           setTimeout(() => {
             setShowAlert(false);

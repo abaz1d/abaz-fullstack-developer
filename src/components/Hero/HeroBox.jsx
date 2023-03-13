@@ -39,7 +39,6 @@ const HeroBox = () => {
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
           <img
             fetchpriority="high"
-            // srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
             src={ME}
             alt="me"
             height={960}

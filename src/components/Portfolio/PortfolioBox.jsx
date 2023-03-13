@@ -1,11 +1,11 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import IMG1 from "@/assets/images/portfolio/portfolio1.webp";
-import IMG2 from "@/assets/images/portfolio/portfolio2.webp";
-import IMG3 from "@/assets/images/portfolio/portfolio3.webp";
-import IMG4 from "@/assets/images/portfolio/portfolio4.webp";
-import IMG5 from "@/assets/images/portfolio/portfolio5.webp";
-import IMG6 from "@/assets/images/portfolio/portfolio6.webp";
+import IMG1 from "@/assets/images/portfolio/project1.svg";
+import IMG2 from "@/assets/images/portfolio/project2.svg";
+import IMG3 from "@/assets/images/portfolio/project3.svg";
+import IMG4 from "@/assets/images/portfolio/project4.svg";
+import IMG5 from "@/assets/images/portfolio/project5.svg";
+import IMG6 from "@/assets/images/portfolio/project6.svg";
 
 const PortfolioBox = () => {
   const { t } = useTranslation();
@@ -37,8 +37,8 @@ const PortfolioBox = () => {
               src={IMG1}
               alt="project1"
               loading="lazy"
-              width={476}
-              height={365}
+              width={483}
+              height={364}
             />
           </div>
           <h3 className="text-center"> {t("p1_name")}</h3>
@@ -74,7 +74,7 @@ const PortfolioBox = () => {
               alt="project2"
               loading="lazy"
               width={483}
-              height={363}
+              height={364}
             />
           </div>
           <h3 className="text-center">{t("p2_name")}</h3>
@@ -109,7 +109,7 @@ const PortfolioBox = () => {
               alt="project3"
               loading="lazy"
               width={483}
-              height={363}
+              height={364}
             />
           </div>
           <h3 className="text-center">{t("p3_name")}</h3>
@@ -178,8 +178,8 @@ const PortfolioBox = () => {
               src={IMG5}
               alt="project5"
               loading="lazy"
-              width={1280}
-              height={964}
+              width={483}
+              height={364}
             />
           </div>
           <h3 className="text-center">{t("p5_name")}</h3>
@@ -213,8 +213,8 @@ const PortfolioBox = () => {
               src={IMG6}
               alt="project6"
               loading="lazy"
-              width={1280}
-              height={964}
+              width={483}
+              height={364}
             />
           </div>
           <h3 className="text-center">{t("p6_name")}</h3>

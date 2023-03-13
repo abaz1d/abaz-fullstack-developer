@@ -2,9 +2,9 @@ import React from "react";
 import { Trans, useTranslation } from "react-i18next";
 import lurikrachmad from "@/assets/images/clients/lurikrachmad.svg";
 import birookk from "@/assets/images/clients/birookk.svg";
-import binaniaga from "@/assets/images/clients/binaniaga.webp";
-import anlimitid from "@/assets/images/clients/anlimitid.webp";
-import abadan from "@/assets/images/clients/abadan.webp";
+import binaniaga from "@/assets/images/clients/binaniaga.svg";
+import anlimitid from "@/assets/images/clients/anlimitid.svg";
+import abadan from "@/assets/images/clients/abadan.svg";
 
 const ClientsBox = () => {
   const { t } = useTranslation();

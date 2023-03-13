@@ -11,6 +11,9 @@ node_modules
 dist
 1dist
 dist-ssr
+me
+me-about
+logo
 *.local
 
 # Editor directories and files

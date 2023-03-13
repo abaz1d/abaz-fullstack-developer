@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
-import xlarge from "@/assets/images/logo/logo3200.webp";
-import large from "@/assets/images/logo/logo1280.webp";
-import medium from "@/assets/images/logo/logo768.webp";
-import small from "@/assets/images/logo/logo300.webp";
+import LOGO from "@/assets/images/logo.svg";
 import { useTranslation } from "react-i18next";
 import { HiTranslate } from "react-icons/hi";
 
@@ -65,11 +62,10 @@ const HeaderBox = () => {
               className="block h-12 min-w-fit py-6 text-lg  font-bold text-primary"
             >
               <img
-                src={small}
-                srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
+                src={LOGO}
+                // srcSet={`${small} 300w, ${medium} 768w, ${large} 1280w, ${xlarge} 3200w`}
                 alt="logo"
                 className="-my-4 mr-20 h-12"
-                // placeholder={small}
                 width={48}
                 height={48}
               />

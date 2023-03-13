@@ -55,7 +55,7 @@ const FooterBox = () => {
                     href="https://www.javascript.com/"
                     aria-label="footer"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
                     JavaScript
@@ -66,7 +66,7 @@ const FooterBox = () => {
                     href="https://nodejs.org/en/"
                     aria-label="footer"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
                     NodeJS
@@ -77,7 +77,7 @@ const FooterBox = () => {
                     href="https://vuejs.org/"
                     aria-label="footer"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
                     VueJS
@@ -88,7 +88,7 @@ const FooterBox = () => {
                     href="https://reactjs.org/"
                     aria-label="footer"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
                     Rect & React Native
@@ -101,7 +101,7 @@ const FooterBox = () => {
                     href="https://www.electronjs.org/"
                     aria-label="footer"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
                     ElectronJS
@@ -112,7 +112,7 @@ const FooterBox = () => {
                     href="https://www.postgresql.org/"
                     aria-label="footer"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
                     PostgreSQL
@@ -123,7 +123,7 @@ const FooterBox = () => {
                     href="https://www.mongodb.com/"
                     aria-label="footer"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
                     MongoDB
@@ -134,7 +134,7 @@ const FooterBox = () => {
                     href="https://tailwindcss.com/"
                     aria-label="footer"
                     target="_blank"
-                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                    className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
                     TailwindCSS
@@ -156,7 +156,7 @@ const FooterBox = () => {
                 <a
                   href="#home"
                   aria-label="footer"
-                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                 >
                   {t("Nav_Home")}
                 </a>
@@ -165,7 +165,7 @@ const FooterBox = () => {
                 <a
                   href="#about"
                   aria-label="footer"
-                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                 >
                   {t("Nav_About")}
                 </a>
@@ -174,7 +174,7 @@ const FooterBox = () => {
                 <a
                   href="#portfolio"
                   aria-label="footer"
-                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                 >
                   {t("Nav_Portfolio")}
                 </a>
@@ -183,7 +183,7 @@ const FooterBox = () => {
                 <a
                   href="#clients"
                   aria-label="footer"
-                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                 >
                   {t("Nav_Clients")}
                 </a>
@@ -192,7 +192,7 @@ const FooterBox = () => {
                 <a
                   href="#contact"
                   aria-label="footer"
-                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary sm:mb-3"
+                  className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                 >
                   {t("Nav_Contact")}
                 </a>
@@ -207,7 +207,7 @@ const FooterBox = () => {
               href="https://github.com/abaz1d"
               aria-label="footer"
               target={"_blank"}
-              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary dark:hover:bg-dark"
               rel="noreferrer"
             >
               <FaGithub className="h-6 w-6 fill-current" />
@@ -218,7 +218,7 @@ const FooterBox = () => {
               href="https://www.linkedin.com/in/abaz-id/"
               aria-label="footer"
               target={"_blank"}
-              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary dark:hover:bg-dark"
               rel="noreferrer"
             >
               <BsLinkedin className="h-5 w-5 fill-current" />
@@ -229,7 +229,7 @@ const FooterBox = () => {
               href="mailto:abaz.my.id@gmail.com"
               aria-label="footer"
               target={"_blank"}
-              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary dark:hover:bg-dark"
               rel="noreferrer"
             >
               <FiMail className="h-5 w-5 fill-dark dark:fill-primary" />
@@ -240,7 +240,7 @@ const FooterBox = () => {
               href="https://www.youtube.com/channel/UCYa4Il5c059G3y93C1vU5DQ"
               aria-label="footer"
               target={"_blank"}
-              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary hover:text-white"
+              className="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-white opacity-60 hover:border-primary hover:bg-primary dark:hover:bg-dark"
               rel="noreferrer"
             >
               <FaYoutube className="fill-current" />

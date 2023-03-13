@@ -57,7 +57,7 @@ const HeaderBox = () => {
         <div className="relative flex items-center justify-between">
           <div className="px-4" data-aos="fade-right" data-aos-duration="1500">
             <a
-              href="#home"
+              href="javascript:location.reload(true)"
               aria-label="nav"
               className="block py-6 text-lg  font-bold text-primary"
             >

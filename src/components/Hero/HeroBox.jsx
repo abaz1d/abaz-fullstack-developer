@@ -1,6 +1,7 @@
 import React from "react";
 import CTA from "./CTA";
 import ME from "@/assets/images/me.svg";
+import SMALL from "@/assets/images/me/aku300.webp";
 import HeroSocials from "./HeroSocials";
 import { Trans, useTranslation } from "react-i18next";
 
@@ -37,8 +38,21 @@ const HeroBox = () => {
         <HeroSocials />
 
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
+          {/* <picture>
+            <source type="image/webp" srcSet={SMALL} />
+            <img
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
+              src={ME}
+              alt="me"
+              height={960}
+              width={633}
+            />
+          </picture> */}
           <img
             fetchpriority="high"
+            placeholder={SMALL}
             src={ME}
             alt="me"
             height={960}

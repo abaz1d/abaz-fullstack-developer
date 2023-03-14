@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import CTA from "./CTA";
 import ME from "@/assets/images/me.svg";
 import SMALL from "@/assets/images/aku.webp";
@@ -7,7 +7,12 @@ import { Trans, useTranslation } from "react-i18next";
 
 const HeroBox = () => {
   const [showImg, setShowImg] = useState(false);
+  const img = useRef();
   const { t } = useTranslation();
+
+  useEffect(() => {
+    img.current.src = ME;
+  }, []);
   const loadImage = () => {
     setShowImg(true);
   };
@@ -53,7 +58,8 @@ const HeroBox = () => {
             />
           )}
           <img
-            src={ME}
+            ref={img}
+            // src={ME}
             alt="me"
             height={960}
             style={imageStyle}

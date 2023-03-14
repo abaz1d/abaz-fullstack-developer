@@ -48,7 +48,6 @@ const HeaderBox = () => {
     setLang(() => !lang);
   };
   const onChangeLang = (e) => {
-    // let lng = event.target.value;
     i18n.changeLanguage(e);
   };
   return (
@@ -57,7 +56,7 @@ const HeaderBox = () => {
         <div className="relative flex items-center justify-between">
           <div className="px-4" data-aos="fade-right" data-aos-duration="1500">
             <a
-              href="javascript:location.reload(true)"
+              href="/"
               aria-label="nav"
               className="block py-6 text-lg  font-bold text-primary"
             >

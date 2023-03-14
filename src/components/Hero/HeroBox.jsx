@@ -58,7 +58,7 @@ const HeroBox = () => {
             height={960}
             style={imageStyle}
             width={633}
-            onLoad={loadImage}
+            onLoad={loadImage.bind(this)}
           />
         </div>
 

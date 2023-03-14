@@ -1,12 +1,17 @@
-import React, { Suspense } from "react";
+import React, { useState } from "react";
 import CTA from "./CTA";
 import ME from "@/assets/images/me.svg";
-import SMALL from "@/assets/images/me/aku300.webp";
+import SMALL from "@/assets/images/aku.webp";
 import HeroSocials from "./HeroSocials";
 import { Trans, useTranslation } from "react-i18next";
 
 const HeroBox = () => {
+  const [showImg, setShowImg] = useState(false);
   const { t } = useTranslation();
+  const loadImage = () => {
+    setShowImg(true);
+  };
+  const imageStyle = !showImg ? { display: "none" } : {};
   return (
     <section
       className="h-[850px] overflow-hidden pt-[5rem] dark:bg-dark sm:pt-[6.5rem] lg:h-[880px]"
@@ -38,15 +43,23 @@ const HeroBox = () => {
         <HeroSocials />
 
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
-          <Suspense fallback={<div>Loading...</div>}>
+          {!showImg && (
             <img
-              placeholder={SMALL}
-              src={ME}
+              src={SMALL}
               alt="me"
-              height={960}
-              width={633}
+              className="mx-auto"
+              height={400}
+              width={266}
             />
-          </Suspense>
+          )}
+          <img
+            src={ME}
+            alt="me"
+            height={960}
+            style={imageStyle}
+            width={633}
+            onLoad={loadImage}
+          />
         </div>
 
         <a

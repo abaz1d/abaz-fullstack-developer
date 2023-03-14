@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import CTA from "./CTA";
 import ME from "@/assets/images/me.svg";
 import SMALL from "@/assets/images/me/aku300.webp";
@@ -38,26 +38,15 @@ const HeroBox = () => {
         <HeroSocials />
 
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
-          {/* <picture>
-            <source type="image/webp" srcSet={SMALL} />
+          <Suspense fallback={<div>Loading...</div>}>
             <img
-              loading="eager"
-              decoding="async"
-              fetchpriority="high"
+              placeholder={SMALL}
               src={ME}
               alt="me"
               height={960}
               width={633}
             />
-          </picture> */}
-          <img
-            fetchpriority="high"
-            placeholder={SMALL}
-            src={ME}
-            alt="me"
-            height={960}
-            width={633}
-          />
+          </Suspense>
         </div>
 
         <a

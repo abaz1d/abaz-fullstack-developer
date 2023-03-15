@@ -33,7 +33,7 @@ const HeroBox = () => {
           Abdul Aziz
         </h2>
         <h3
-          className="text-secondary"
+          className="text-secondary dark:text-slate-400"
           data-aos="fade-up-left"
           data-aos-duration="800"
         >

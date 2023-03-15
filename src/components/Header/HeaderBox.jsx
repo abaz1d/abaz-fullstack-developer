@@ -13,9 +13,11 @@ const HeaderBox = () => {
       const header = document.querySelector("header");
       const fixNav = header.offsetTop;
       if (window.pageYOffset > fixNav) {
-        header.classList.add("navbar-fixed");
+        header.classList.add("navbar-fixed", "h-[70px]");
+        header.classList.remove("px-8");
       } else {
-        header.classList.remove("navbar-fixed");
+        header.classList.remove("navbar-fixed", "h-[70px]");
+        header.classList.add("px-8");
       }
     };
     const hamburger = document.querySelector("#hamburger-btn");
@@ -51,15 +53,15 @@ const HeaderBox = () => {
     i18n.changeLanguage(e);
   };
   return (
-    <header className="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent">
+    <header className="duration-900 absolute top-0 left-0 z-10 flex w-full transform items-center bg-transparent py-1 px-8 lg:py-0">
       <div className="container">
         <div className="relative flex items-center justify-between">
-          <div className="px-4" data-aos="fade-right" data-aos-duration="1500">
-            <a
-              href="/"
-              aria-label="nav"
-              className="block py-6 text-lg  font-bold text-primary"
-            >
+          <div
+            className="text-lg  font-bold text-primary"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <a href="/" aria-label="nav" className="block py-6">
               <img
                 src={LOGO}
                 alt="logo"
@@ -70,7 +72,7 @@ const HeaderBox = () => {
             </a>
           </div>
           <div
-            className="flex items-center px-4"
+            className="flex items-center "
             data-aos="fade-left"
             data-aos-duration="1500"
           >

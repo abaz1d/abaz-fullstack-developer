@@ -51,16 +51,16 @@ const HeroBox = () => {
               src={SMALL}
               alt="me"
               className="mx-auto"
-              height={400}
-              width={266}
+              height={304}
+              width={461}
             />
           )}
           <img
             src={ME}
             alt="me"
-            height={960}
+            height={304}
             style={imageStyle}
-            width={633}
+            width={461}
             onLoad={loadImage.bind(this)}
           />
         </div>

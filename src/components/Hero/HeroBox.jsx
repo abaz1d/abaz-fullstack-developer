@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import CTA from "./CTA";
+import React, { lazy, Suspense, useState } from "react";
 import ME from "@/assets/images/me.svg";
 import SMALL from "@/assets/images/aku.webp";
-import HeroSocials from "./HeroSocials";
+const CTA = lazy(() => import("./CTA"));
+const HeroSocials = lazy(() => import("./HeroSocials"));
 import { Trans, useTranslation } from "react-i18next";
 
 const HeroBox = () => {
@@ -12,6 +12,7 @@ const HeroBox = () => {
     setShowImg(true);
   };
   const imageStyle = !showImg ? { display: "none" } : {};
+  const renderLoader = () => <p>Loading</p>;
   return (
     <section
       className="h-[850px] overflow-hidden pt-[5rem] dark:bg-dark sm:pt-[6.5rem] lg:h-[880px]"
@@ -40,7 +41,9 @@ const HeroBox = () => {
           <Trans components={{ i: <i /> }}>{t("HeroBox_Subtitle")}</Trans>
         </h3>
         <CTA />
-        <HeroSocials />
+        <Suspense fallback={renderLoader()}>
+          <HeroSocials />
+        </Suspense>
 
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
           {!showImg && (

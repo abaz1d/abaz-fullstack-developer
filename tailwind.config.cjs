@@ -77,22 +77,15 @@ module.exports = {
           900: withOpacityValue("--color-darkmode-900"),
         },
       },
-      // fontFamily: {
-      //   roboto: ["Roboto"],
-      //   philosopher: ["Philosopher"],
-      // },
+      fontFamily: {
+        poppins: ["Poppins"],
+      },
       container: {
         center: true,
-        // padding: "16px",
       },
       screens: {
         "2xl": "1420px",
       },
-      // maxWidth: {
-      //   "1/4": "25%",
-      //   "1/2": "50%",
-      //   "3/4": "75%",
-      // },
       strokeWidth: {
         0.5: 0.5,
         1.5: 1.5,

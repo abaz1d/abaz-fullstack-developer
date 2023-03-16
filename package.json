@@ -10,7 +10,7 @@
     "preview": "vite preview --host",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+    "lint": "eslint . --ext .vue,.js,.jsx --fix --ignore-path .gitignore"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

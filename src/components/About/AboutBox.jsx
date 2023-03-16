@@ -45,8 +45,8 @@ const AboutBox = () => {
               src={ME}
               alt="About image"
               loading="lazy"
-              width={960}
-              height={960}
+              width={497}
+              height={497}
             />
           </div>
         </div>

@@ -1,9 +1,9 @@
 import Routes from "./router/Routes.jsx";
-import React, { useEffect } from "react";
+import React, { useEffect, lazy, Suspense } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ScrollToTop from "./components/ScrollToTop";
-import ToggleMode from "./components/ToggleMode.jsx";
+const ScrollToTop = lazy(() => import("./components/ScrollToTop"));
+const ToggleMode = lazy(() => import("./components/ToggleMode"));
 
 function App() {
   useEffect(() => {
@@ -12,8 +12,10 @@ function App() {
   return (
     <>
       <Routes />
-      <ToggleMode />
-      <ScrollToTop />
+      <Suspense>
+        <ToggleMode />
+        <ScrollToTop />
+      </Suspense>
     </>
   );
 }

@@ -1,18 +1,15 @@
-import React, { lazy, Suspense, useState } from "react";
-import ME from "@/assets/images/me.svg";
+import React, { lazy, Suspense } from "react";
 import SMALL from "@/assets/images/aku.webp";
-const CTA = lazy(() => import("./CTA"));
-const HeroSocials = lazy(() => import("./HeroSocials"));
+import CTA from "./CTA";
+import HeroSocials from "./HeroSocials";
+const HeroPic = lazy(() => import("./HeroPic"));
 import { Trans, useTranslation } from "react-i18next";
 
 const HeroBox = () => {
-  const [showImg, setShowImg] = useState(false);
   const { t } = useTranslation();
-  const loadImage = () => {
-    setShowImg(true);
-  };
-  const imageStyle = !showImg ? { display: "none" } : {};
-  const renderLoader = () => <p>Loading</p>;
+  const renderLoader = () => (
+    <img src={SMALL} alt="me" className="mx-auto" height={304} width={461} />
+  );
   return (
     <section
       className="h-[850px] overflow-hidden pt-[5rem] dark:bg-dark sm:pt-[6.5rem] lg:h-[880px]"
@@ -41,28 +38,12 @@ const HeroBox = () => {
           <Trans components={{ i: <i /> }}>{t("HeroBox_Subtitle")}</Trans>
         </h3>
         <CTA />
-        <Suspense fallback={renderLoader()}>
-          <HeroSocials />
-        </Suspense>
+        <HeroSocials />
 
         <div className="me" data-aos="fade-down" data-aos-duration="1500">
-          {!showImg && (
-            <img
-              src={SMALL}
-              alt="me"
-              className="mx-auto"
-              height={304}
-              width={461}
-            />
-          )}
-          <img
-            src={ME}
-            alt="me"
-            height={304}
-            style={imageStyle}
-            width={461}
-            onLoad={loadImage.bind(this)}
-          />
+          <Suspense fallback={renderLoader()}>
+            <HeroPic />
+          </Suspense>
         </div>
 
         <a

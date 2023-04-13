@@ -91,7 +91,7 @@ const FooterBox = () => {
                     className="mb-6 inline-block text-base text-slate-200 hover:text-primary dark:hover:text-dark sm:mb-3"
                     rel="noreferrer"
                   >
-                    Rect & React Native
+                    React & React Native
                   </a>
                 </li>
               </ul>

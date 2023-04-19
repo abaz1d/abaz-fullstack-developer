@@ -91,18 +91,18 @@ const AboutBox = () => {
           </p>
           <div className="w-full px-4">
             <h4
-              className="ls:text-left ls:text-[2em] mb-5 text-center text-xl font-bold text-dark dark:text-white lg:text-left"
+              className="mb-5 text-center text-xl font-bold text-dark dark:text-white lg:text-left"
               data-aos="fade-down"
               data-aos-duration="800"
             >
               <Trans components={{ i: <i /> }}>{t("Main_Tech")}</Trans>
             </h4>
-            <div className="mb-14 -ml-2 flex justify-center lg:justify-start">
+            <div className="mb-14 -ml-2 grid grid-cols-4 justify-center gap-y-4 lg:w-9/12 lg:grid-cols-8 lg:justify-start">
               {/* JavaScript */}
               <a
                 href="https://www.javascript.com/"
                 target={"_blank"}
-                className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#F7DF1E] opacity-80 hover:border-primary hover:bg-primary hover:text-white md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-black bg-dark text-[#F7DF1E] opacity-80 hover:border-primary hover:bg-primary hover:text-white lg:h-12 lg:w-12"
                 data-aos="fade-down"
                 data-aos-duration="300"
                 rel="noreferrer"
@@ -115,7 +115,7 @@ const AboutBox = () => {
               <a
                 href="https://tailwindcss.com/"
                 target={"_blank"}
-                className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#339933] opacity-80 hover:border-primary hover:bg-primary hover:text-white md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-black bg-dark text-[#339933] opacity-80 hover:border-primary hover:bg-primary hover:text-white lg:h-12 lg:w-12"
                 data-aos="fade-down"
                 data-aos-duration="600"
                 rel="noreferrer"
@@ -128,7 +128,7 @@ const AboutBox = () => {
               <a
                 href="https://vuejs.org/"
                 target={"_blank"}
-                className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#4FC08D] opacity-80 hover:border-primary hover:bg-primary hover:text-white md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-black bg-dark text-[#4FC08D] opacity-80 hover:border-primary hover:bg-primary hover:text-white lg:h-12 lg:w-12"
                 data-aos="fade-down"
                 data-aos-duration="900"
                 rel="noreferrer"
@@ -141,7 +141,7 @@ const AboutBox = () => {
               <a
                 href="https://reactjs.org/"
                 target={"_blank"}
-                className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#61DAFB] opacity-80 hover:border-primary hover:bg-primary hover:text-white md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-black bg-dark text-[#61DAFB] opacity-80 hover:border-primary hover:bg-primary hover:text-white lg:h-12 lg:w-12"
                 data-aos="fade-down"
                 data-aos-duration="1200"
                 rel="noreferrer"
@@ -154,7 +154,7 @@ const AboutBox = () => {
               <a
                 href="https://www.electronjs.org/"
                 target={"_blank"}
-                className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#47848F] opacity-80 hover:border-primary hover:bg-primary hover:text-white md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-black bg-dark text-[#47848F] opacity-80 hover:border-primary hover:bg-primary hover:text-white lg:h-12 lg:w-12"
                 data-aos="fade-down"
                 data-aos-duration="1500"
                 rel="noreferrer"
@@ -167,7 +167,7 @@ const AboutBox = () => {
               <a
                 href="https://www.postgresql.org/"
                 target={"_blank"}
-                className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#4169E1] opacity-80 hover:border-primary hover:bg-primary hover:text-white md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-black bg-dark text-[#4169E1] opacity-80 hover:border-primary hover:bg-primary hover:text-white lg:h-12 lg:w-12"
                 data-aos="fade-down"
                 data-aos-duration="1800"
                 rel="noreferrer"
@@ -180,7 +180,7 @@ const AboutBox = () => {
               <a
                 href="https://www.mongodb.com/"
                 target={"_blank"}
-                className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#47A248] opacity-80 hover:border-primary hover:bg-primary hover:text-white md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-black bg-dark text-[#47A248] opacity-80 hover:border-primary hover:bg-primary hover:text-white lg:h-12 lg:w-12"
                 data-aos="fade-down"
                 data-aos-duration="2100"
                 rel="noreferrer"
@@ -193,7 +193,7 @@ const AboutBox = () => {
               <a
                 href="https://tailwindcss.com/"
                 target={"_blank"}
-                className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-black bg-dark text-[#06B6D4] opacity-80 hover:border-primary hover:bg-primary hover:text-white md:h-10 md:w-10 lg:h-12 lg:w-12"
+                className="mx-auto flex h-10 w-10 items-center justify-center rounded-full border border-black bg-dark text-[#06B6D4] opacity-80 hover:border-primary hover:bg-primary hover:text-white lg:h-12 lg:w-12"
                 data-aos="fade-down"
                 data-aos-duration="2400"
                 rel="noreferrer"

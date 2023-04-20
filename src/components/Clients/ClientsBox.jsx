@@ -67,8 +67,8 @@ const ClientsBox = () => {
               >
                 Abadan Land Arrangement
                 <span
-                  className="absolute top-4 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark
-  p-2 text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
+                  className="absolute top-4 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark p-2
+  text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:border-primary dark:bg-primary"
                 ></span>
               </span>
             </a>
@@ -94,8 +94,8 @@ const ClientsBox = () => {
               >
                 OKK Prov. Jawa Tengah
                 <span
-                  className="absolute top-3 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark
-  p-2 text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
+                  className="absolute top-3 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark p-2
+  text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:border-primary dark:bg-primary"
                 ></span>
               </span>
             </a>
@@ -122,8 +122,8 @@ const ClientsBox = () => {
               >
                 Anlimitid Tech
                 <span
-                  className="absolute -top-2 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark
-  p-2 text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
+                  className="absolute -top-2 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark p-2
+  text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:border-primary dark:bg-primary"
                 ></span>
               </span>
             </a>
@@ -149,8 +149,8 @@ const ClientsBox = () => {
               >
                 Lurik Rachmad
                 <span
-                  className="absolute -top-2 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark
-  p-2 text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
+                  className="absolute -top-2 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark p-2
+  text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:border-primary dark:bg-primary"
                 ></span>
               </span>
             </a>
@@ -176,8 +176,8 @@ const ClientsBox = () => {
               >
                 KSP Bina Niaga
                 <span
-                  className="absolute top-3 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark
-  p-2 text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
+                  className="absolute top-3 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark p-2
+  text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:border-primary dark:bg-primary"
                 ></span>
               </span>
             </a>
@@ -203,8 +203,8 @@ const ClientsBox = () => {
               >
                 Otoritas Bandara Wilayah V Kelas 1 - Makassar
                 <span
-                  className="absolute top-3 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark
-  p-2 text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:bg-primary"
+                  className="absolute top-3 left-1/2 z-0 m-4 mx-auto h-1 w-1 -translate-x-1/2 translate-y-full rotate-45 border-b border-r border-dark bg-dark p-2
+  text-center text-sm text-gray-100 opacity-0 transition-opacity group-hover:opacity-100 dark:border-primary dark:bg-primary"
                 ></span>
               </span>
             </a>

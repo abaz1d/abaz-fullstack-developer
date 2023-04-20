@@ -2,6 +2,7 @@
 @import "./_tailwind.css";
 @import "./_colors.css";
 @import "./_other.css";
+@import "aos/dist/aos.css";
 
 @import "./components/header.css";
 @import "./components/about.css";

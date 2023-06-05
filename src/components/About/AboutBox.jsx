@@ -1,6 +1,6 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
-import ME from "@/assets/images/me-about.svg";
+import ME from "@/assets/images/me-about-2.svg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -40,7 +40,7 @@ const AboutBox = () => {
       <div className="about__container container">
         <div className="about__me" data-aos="fade-down" data-aos-duration="800">
           {" "}
-          <div className="about__me-image grayscale hover:grayscale-0">
+          <div className="about__me-image">
             <img
               src={ME}
               alt="About image"
